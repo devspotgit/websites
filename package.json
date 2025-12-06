@@ -1,0 +1,24 @@
+{
+  "name": "websites",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devspotgit/websites.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devspotgit/websites/issues"
+  },
+  "homepage": "https://github.com/devspotgit/websites#readme",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "express": "^5.2.1"
+  }
+}

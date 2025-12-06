@@ -1,0 +1,47 @@
+
+
+[
+
+    {
+        "slug":"fitdaily",
+        "category":"fitness",
+        "image":"",
+        "published":true,
+        "date":"2025-08-11"
+    },
+
+    {
+        "slug":"emilys",
+        "category":"fashion",
+        "image":"",
+        "published":true,
+        "date":"2025-05-20"
+    },
+
+    {
+        "slug":"maxestate",
+        "category":"agency",
+        "image":"",
+        "published":true,
+        "date":"2025-04-20"
+    },
+
+    {
+        "slug":"webtech",
+        "category":"agency",
+        "image":"",
+        "published":true,
+        "date":"2025-03-10"
+    },
+    
+    {
+        "slug":"foodroyal",
+        "category":"restaurant",
+        "image":"",
+        "published":true,
+        "date":"2025-05-20"
+    }
+
+]
+
+
