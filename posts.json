@@ -5,7 +5,7 @@
     {
         "slug":"fitdaily",
         "category":"fitness",
-        "image":"",
+        "image":"https://i.ibb.co/rKBtWCZW/test-image.jpg",
         "published":true,
         "date":"2025-08-11"
     },
@@ -13,7 +13,7 @@
     {
         "slug":"emilys",
         "category":"fashion",
-        "image":"",
+        "image":"https://i.ibb.co/rKBtWCZW/test-image.jpg",
         "published":true,
         "date":"2025-05-20"
     },
@@ -21,7 +21,7 @@
     {
         "slug":"maxestate",
         "category":"agency",
-        "image":"",
+        "image":"https://i.ibb.co/rKBtWCZW/test-image.jpg",
         "published":true,
         "date":"2025-04-20"
     },
@@ -29,7 +29,7 @@
     {
         "slug":"webtech",
         "category":"agency",
-        "image":"",
+        "image":"https://i.ibb.co/rKBtWCZW/test-image.jpg",
         "published":true,
         "date":"2025-03-10"
     },
@@ -37,7 +37,65 @@
     {
         "slug":"foodroyal",
         "category":"restaurant",
-        "image":"",
+        "image":"https://i.ibb.co/rKBtWCZW/test-image.jpg",
+        "published":true,
+        "date":"2025-05-20"
+    },
+
+
+
+
+
+
+
+
+
+    {
+        "slug":"foodroyal",
+        "category":"restaurant",
+        "image":"https://i.ibb.co/rKBtWCZW/test-image.jpg",
+        "published":true,
+        "date":"2025-05-20"
+    },
+    {
+        "slug":"foodroyal",
+        "category":"restaurant",
+        "image":"https://i.ibb.co/rKBtWCZW/test-image.jpg",
+        "published":true,
+        "date":"2025-05-20"
+    },
+    {
+        "slug":"foodroyal",
+        "category":"restaurant",
+        "image":"https://i.ibb.co/rKBtWCZW/test-image.jpg",
+        "published":true,
+        "date":"2025-05-20"
+    },
+    {
+        "slug":"foodroyal",
+        "category":"restaurant",
+        "image":"https://i.ibb.co/rKBtWCZW/test-image.jpg",
+        "published":true,
+        "date":"2025-05-20"
+    },
+    {
+        "slug":"foodroyal",
+        "category":"restaurant",
+        "image":"https://i.ibb.co/rKBtWCZW/test-image.jpg",
+        "published":true,
+        "date":"2025-05-20"
+    },
+    {
+        "slug":"foodroyal",
+        "category":"restaurant",
+        "image":"https://i.ibb.co/rKBtWCZW/test-image.jpg",
+        "published":true,
+        "date":"2025-05-20"
+    },
+    {
+        "slug":"foodroyal",
+        "category":"restaurant",
+        "image":"https://i.ibb.co/rKBtWCZW/test-image.jpg",
         "published":true,
         "date":"2025-05-20"
     }

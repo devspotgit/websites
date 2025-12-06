@@ -6,8 +6,8 @@ function header(){
 
     return `
         <div class="header">
-            <span>Websites</span>
-            <span><i class="fa-solid fa-bars"></i></span>
+            <a href="/">Websites</a>
+            <button><i class="fa-solid fa-bars"></i></button>
         </div>
     `
 }
@@ -28,6 +28,15 @@ function title(category){
             <a href="/">Home</a>
             <span><i class="fa-solid fa-chevron-right"></i></span>
             <span>${api.getName(category)}</span>
+        </div>
+    `
+}
+
+function summary(){
+
+    return `
+        <div class="summary">
+            <span>Explore our catalog of unique and modern designed website templates</span>
         </div>
     `
 }
@@ -66,7 +75,7 @@ function categoryList(category, categories){
         <div class="category-list">
             <div class="category-list-header">
                 <span>Categories</span>
-                <span></span>
+                <button><i class="fa-solid fa-x"></i></button>
             </div>
             <div class="category-list-body">
                 ${
@@ -102,16 +111,15 @@ function categoryPage(category){
             </head>
             <body>
                 <div class="root">
-                    <div class="inner-wrapper">
-                        ${categoryList(category, categories)}
-                        <div class="main">
-                            ${header()}
-                            ${title(category)}
-                            ${postList(posts)}
-                            ${footer()}
-                        </div>
-                        <div class="overlay"></div>
+                    ${categoryList(category, categories)}
+                    <div class="main">
+                        ${header()}
+                        ${summary()}
+                        ${title(category)}
+                        ${postList(posts)}
+                        ${footer()}
                     </div>
+                    <div class="overlay"></div>
                 </div>
                 <script type="module" src="/js/main.js"></script>
             </body>

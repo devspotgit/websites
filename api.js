@@ -12,12 +12,12 @@ function getCategoryList(){
 
     const categoryList = []
 
+    categoryList.push("all")
+    
     posts.forEach(post => {
 
         if(post.published && !categoryList.find(category => category == post.category)) categoryList.push(post.category)
     })
-
-    categoryList.push("all")
         
     return categoryList
 }
