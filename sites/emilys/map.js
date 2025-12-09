@@ -7,7 +7,9 @@ const map = {
 
     "about.html": templates.about,
     
-    "contact.html": templates.contact
+    "contact.html": templates.contact,
+
+    "blog.html": templates.blog
 }
 
 module.exports = map

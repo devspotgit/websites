@@ -1,20 +1,212 @@
 
-{
-    
-    "home":{
 
-        "value":"Home"
+{
+
+    "brand":{
+
+        "name":"Emilys",
+
+        "tagline":"Wear Your Dress",
+
+        "image":"https://i.ibb.co/nqHWxwqC/reza-delkhosh-i-RAOJYt-PHZE-unsplash.jpg"
     },
 
-    "about":{
+    "summerSaleSection":{
+        
+        "content":"SUMMER SALE",
 
-        "value":"About"
+        "image":""
+    },
+
+    "achievementSection":{
+
+        "image":"",
+
+        "achievements":[
+
+            {
+                "number":"",
+    
+                "type":""
+            },
+    
+            {
+                "number":"",
+    
+                "type":""
+            },
+    
+            {
+                "number":"",
+    
+                "type":""
+            },
+    
+            {
+                "number":"",
+    
+                "type":""
+            }
+        ]
+    },
+
+    "aboutHeroSection":{
+
+        "image":"",
+
+        "name":"About"
+    },
+
+    "blogHeroSection":{
+
+        "image":"",
+
+        "name":"Blog"
+    },
+    
+    "contactHeroSection":{
+
+        "image":"",
+
+        "name":"Contact"
+    },
+
+    "aboutSection":{
+
+        "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+
+        "image":"https://i.ibb.co/5XZDtRfz/aiony-haust-IXYxq-P4zejo-unsplash.jpg",
+
+        "title":"Emilys Fashion Line"
     },
 
     "contact":{
 
-        "value":"Contact"
-    }
+        "phone":"+2 222 222 222",
+        
+        "email":"info@emilys.cmr",
+        
+        "address":"123 scalford drive, sandcity 345"
+    },
 
+    "social":[
+
+        {
+            "name":"Twitter",
+
+            "url":""
+        },
+
+        {
+            "name":"Facebook",
+
+            "url":""
+        }
+    ],
+
+    "products":[
+
+        {
+            "image":"https://i.ibb.co/030P3WK/mohamadreza-khashay-ziub-UDop-Hmc-unsplash.jpg",
+
+            "name":"Young Womanwearing Dress",
+
+            "price":"110$"
+        },
+
+        {
+            "image":"https://i.ibb.co/030P3WK/mohamadreza-khashay-ziub-UDop-Hmc-unsplash.jpg",
+
+            "name":"Young Womanwearing Dress",
+
+            "price":"110$"
+        },
+
+        {
+            "image":"https://i.ibb.co/030P3WK/mohamadreza-khashay-ziub-UDop-Hmc-unsplash.jpg",
+
+            "name":"Young Womanwearing Dress",
+
+            "price":"110$"
+        },
+
+        {
+            "image":"https://i.ibb.co/030P3WK/mohamadreza-khashay-ziub-UDop-Hmc-unsplash.jpg",
+
+            "name":"Young Womanwearing Dress",
+
+            "price":"110$"
+        }
+    ],
+
+    "testimonials":[
+
+        {
+            "image":"",
+
+            "name":"",
+
+            "title":""
+        },
+
+        {
+            "image":"",
+
+            "name":"",
+
+            "title":""
+        },
+
+        {
+            "image":"",
+
+            "name":"",
+
+            "title":""
+        },
+
+        {
+            "image":"",
+
+            "name":"",
+
+            "title":""
+        }
+    ],
+
+    "blog":[
+
+        {
+            "image":"",
+
+            "title":"",
+
+            "date":""
+        },
+
+        {
+            "image":"",
+
+            "title":"",
+
+            "date":""
+        },
+
+        {
+            "image":"",
+
+            "title":"",
+
+            "date":""
+        },
+
+        {
+            "image":"",
+
+            "title":"",
+
+            "date":""
+        }
+    ]
 }
 

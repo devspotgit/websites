@@ -1,7 +1,6 @@
 
 
 [
-
     {
         "slug":"fitdaily",
         "category":"fitness",
@@ -40,66 +39,7 @@
         "image":"https://i.ibb.co/rKBtWCZW/test-image.jpg",
         "published":true,
         "date":"2025-05-20"
-    },
-
-
-
-
-
-
-
-
-
-    {
-        "slug":"foodroyal",
-        "category":"restaurant",
-        "image":"https://i.ibb.co/rKBtWCZW/test-image.jpg",
-        "published":true,
-        "date":"2025-05-20"
-    },
-    {
-        "slug":"foodroyal",
-        "category":"restaurant",
-        "image":"https://i.ibb.co/rKBtWCZW/test-image.jpg",
-        "published":true,
-        "date":"2025-05-20"
-    },
-    {
-        "slug":"foodroyal",
-        "category":"restaurant",
-        "image":"https://i.ibb.co/rKBtWCZW/test-image.jpg",
-        "published":true,
-        "date":"2025-05-20"
-    },
-    {
-        "slug":"foodroyal",
-        "category":"restaurant",
-        "image":"https://i.ibb.co/rKBtWCZW/test-image.jpg",
-        "published":true,
-        "date":"2025-05-20"
-    },
-    {
-        "slug":"foodroyal",
-        "category":"restaurant",
-        "image":"https://i.ibb.co/rKBtWCZW/test-image.jpg",
-        "published":true,
-        "date":"2025-05-20"
-    },
-    {
-        "slug":"foodroyal",
-        "category":"restaurant",
-        "image":"https://i.ibb.co/rKBtWCZW/test-image.jpg",
-        "published":true,
-        "date":"2025-05-20"
-    },
-    {
-        "slug":"foodroyal",
-        "category":"restaurant",
-        "image":"https://i.ibb.co/rKBtWCZW/test-image.jpg",
-        "published":true,
-        "date":"2025-05-20"
     }
-
 ]
 
 
