@@ -43,6 +43,7 @@ function testimonialItem(testimonial){
                 <img src="${testimonial.image}">
             </div>
             <span>${testimonial.name}</span>
+            <p>${testimonial.content}</p>
             <span>${testimonial.title}</span>
         </div>
     `
@@ -53,10 +54,10 @@ function blogItem(blog){
     return `
         <div class="blog-item">
             <div>
-                <img src="${blog.image}"
+                <img src="${blog.image}">
             </div>
             <div>
-                <a href="#">${blog.name}</a>
+                <a href="#">${blog.title}</a>
                 <span>${blog.date}</span>
             </div>
         </div>
@@ -66,7 +67,7 @@ function blogItem(blog){
 
 
 // page sections
-function header(){
+function header(menu){
 
     return `
         <div class="header">
@@ -80,10 +81,10 @@ function header(){
                 </div>
                 <div class="menu-wrapper">
                     <div>
-                        <a href="index.html">Home</a>
-                        <a href="about.html">About</a>
-                        <a href="blog.html">Blog</a>
-                        <a href="contact.html">Contact</a>
+                        <a href="index.html" ${menu == "home" ? "selected" : ""}>Home</a>
+                        <a href="about.html" ${menu == "about" ? "selected" : ""}>About</a>
+                        <a href="blog.html" ${menu == "blog" ? "selected" : ""}>Blog</a>
+                        <a href="contact.html" ${menu == "contact" ? "selected" : ""}>Contact</a>
                     </div>
                 </div>
             </div>
@@ -151,7 +152,7 @@ function newsletter(){
             <div> 
                 <span>SUBSCRIBE TO OUR NEWSLETTER</span>
                 <div>
-                    <input type="text" placeholder="Enter Email Address">
+                    <input type="text" placeholder="Enter Email Address" required>
                     <button>Subscribe</button>
                 </div>
             </div>
@@ -199,6 +200,7 @@ function pageHero(page){
     return `
         <div class="page-hero">
             <img src="${page.image}">
+            <div></div>
             <div>
                 <span>${page.name}</span>
             </div>
@@ -211,6 +213,7 @@ function summerSaleSection(){
     return `
         <div class="summer-sale">
             <img src="${data.summerSaleSection.image}">
+            <div></div>
             <div>
                 <span>${data.summerSaleSection.content}</span>
             </div>
@@ -223,6 +226,7 @@ function achievementSection(){
     return `
         <div class="achievement">
             <img src="${data.achievementSection.image}">
+            <div></div>
             <div>
                 ${
                     data.achievementSection.achievements.map(achievement => `
@@ -282,7 +286,7 @@ function testimonials(){
                 </div>
                 <div>
                     ${
-                        data.testimonials.map(testimonial => `<button></button>`).join(" ")
+                        data.testimonials.map(testimonial => `<button class="control"></button>`).join(" ")
                     }
                 </div>
             </div>
@@ -311,6 +315,20 @@ function contactForm(){
     return `
         <div class="contact-form">
             <div>
+                <div>
+                    <div>
+                        <span>Address</span>
+                        <span>${data.contact.address}</span>
+                    </div>
+                    <div>
+                        <span>Phone</span>
+                        <a href="tel:${data.contact.phone}">${data.contact.phone}</a>
+                    </div>
+                    <div>
+                        <span>Email</span>
+                        <a href="mailto:${data.contact.email}">${data.contact.email}</a>
+                    </div>
+                </div>
                 <form>
                     <input type="text" placeholder="Name" required> 
                     <input type="email" placeholder="Email" required> 
@@ -318,20 +336,6 @@ function contactForm(){
                     <textarea placeholder="Message" required></textarea> 
                     <button>Send Message</button>
                 </form>
-                <div>
-                    <div>
-                        <span>Address:</span>
-                        <span>${data.contact.address}</span>
-                    </div>
-                    <div>
-                        <span>Phone:</span>
-                        <a href="tel:${data.contact.phone}">${data.contact.phone}</a>
-                    </div>
-                    <div>
-                        <span>Email:</span>
-                        <a href="mailto:${data.contact.email}">${data.contact.email}</a>
-                    </div>
-                </div>
             </div>
         </div>
     `
@@ -342,11 +346,9 @@ function allBlog(){
     return `
         <div class="all-blog">
             <div>
-                <div>
-                    ${
-                        data.blog.map(item => blogItem(item)).join(" ")
-                    }
-                </div>
+                ${
+                    data.blog.map(item => blogItem(item)).join(" ")
+                }
             </div>
         </div>
     `
@@ -370,11 +372,17 @@ function home(){
             </head>
             <body>
                 <div class="root">
-                  ${header()}
+                    ${header("home")}
                     <div class="main">
                         ${homeHero()}
                         ${trending()}
-
+                        ${aboutSection()}
+                        ${products()}
+                        ${summerSaleSection()}
+                        ${testimonials()}
+                        ${recentBlog()}
+                        ${achievementSection()}
+                        ${newsletter()}
                     </div>
                     ${footer()}
                 </div>
@@ -398,9 +406,13 @@ function about(){
             </head>
             <body>
                 <div class="root">
-                    ${header()}
+                    ${header("about")}
                     <div class="main">
-                    
+                        ${pageHero(data.aboutHeroSection)}
+                        ${aboutSection()}
+                        ${testimonials()}
+                        ${achievementSection()}
+                        ${newsletter()}
                     </div>
                     ${footer()}
                 </div>
@@ -425,9 +437,12 @@ function contact(){
             </head>
             <body>
                 <div class="root">
-                    ${header()}
+                    ${header("contact")}
                     <div class="main">
-                    
+                        ${pageHero(data.contactHeroSection)}
+                        ${contactForm()}
+                        ${achievementSection()}
+                        ${newsletter()}
                     </div>
                     ${footer()}
                 </div>
@@ -452,9 +467,12 @@ function blog(){
             </head>
             <body>
                 <div class="root">
-                    ${header()}
+                    ${header("blog")}
                     <div class="main">
-                    
+                        ${pageHero(data.blogHeroSection)}
+                        ${allBlog()}
+                        ${achievementSection()}
+                        ${newsletter()}
                     </div>
                     ${footer()}
                 </div>

@@ -15,58 +15,58 @@
         
         "content":"SUMMER SALE",
 
-        "image":""
+        "image":"https://i.ibb.co/Z1JFvcP4/alexi-romano-CCx6-Fz-Cm-OI-unsplash.jpg"
     },
 
     "achievementSection":{
 
-        "image":"",
+        "image":"https://i.ibb.co/nqHWxwqC/reza-delkhosh-i-RAOJYt-PHZE-unsplash.jpg",
 
         "achievements":[
 
             {
-                "number":"",
+                "number":"10000",
     
-                "type":""
+                "type":"Happy Customers"
             },
     
             {
-                "number":"",
+                "number":"100",
     
-                "type":""
+                "type":"Branches"
             },
     
             {
-                "number":"",
+                "number":"1000",
     
-                "type":""
+                "type":"Partners"
             },
     
             {
-                "number":"",
+                "number":"100",
     
-                "type":""
+                "type":"Awards"
             }
         ]
     },
 
     "aboutHeroSection":{
 
-        "image":"",
+        "image":"https://i.ibb.co/5XZDtRfz/aiony-haust-IXYxq-P4zejo-unsplash.jpg",
 
         "name":"About"
     },
 
     "blogHeroSection":{
 
-        "image":"",
+        "image":"https://i.ibb.co/030P3WK/mohamadreza-khashay-ziub-UDop-Hmc-unsplash.jpg",
 
         "name":"Blog"
     },
     
     "contactHeroSection":{
 
-        "image":"",
+        "image":"https://i.ibb.co/rRyBY4FM/ben-scott-b-Cn-M5-P0gcp-Y-unsplash.jpg",
 
         "name":"Contact"
     },
@@ -109,103 +109,111 @@
         {
             "image":"https://i.ibb.co/030P3WK/mohamadreza-khashay-ziub-UDop-Hmc-unsplash.jpg",
 
-            "name":"Young Womanwearing Dress",
+            "name":"Woman Dress",
 
-            "price":"110$"
+            "price":"$110"
         },
 
         {
             "image":"https://i.ibb.co/030P3WK/mohamadreza-khashay-ziub-UDop-Hmc-unsplash.jpg",
 
-            "name":"Young Womanwearing Dress",
+            "name":"Woman Dress",
 
-            "price":"110$"
+            "price":"$110"
         },
 
         {
             "image":"https://i.ibb.co/030P3WK/mohamadreza-khashay-ziub-UDop-Hmc-unsplash.jpg",
 
-            "name":"Young Womanwearing Dress",
+            "name":"Woman Dress",
 
-            "price":"110$"
+            "price":"$110"
         },
 
         {
             "image":"https://i.ibb.co/030P3WK/mohamadreza-khashay-ziub-UDop-Hmc-unsplash.jpg",
 
-            "name":"Young Womanwearing Dress",
+            "name":"Woman Dress",
 
-            "price":"110$"
+            "price":"$110"
         }
     ],
 
     "testimonials":[
 
         {
-            "image":"",
+            "image":"https://i.ibb.co/MySCwB8f/ian-dooley-d1-UPki-Fd04-A-unsplash.jpg",
 
-            "name":"",
+            "name":"James Stone",
 
-            "title":""
+            "title":"Customer",
+
+            "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
 
         {
-            "image":"",
+            "image":"https://i.ibb.co/MySCwB8f/ian-dooley-d1-UPki-Fd04-A-unsplash.jpg",
 
-            "name":"",
+            "name":"James Stone",
 
-            "title":""
+            "title":"Customer",
+
+            "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
 
         {
-            "image":"",
+            "image":"https://i.ibb.co/MySCwB8f/ian-dooley-d1-UPki-Fd04-A-unsplash.jpg",
 
-            "name":"",
+            "name":"James Stone",
 
-            "title":""
+            "title":"Customer",
+
+            "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
 
         {
-            "image":"",
+            "image":"https://i.ibb.co/MySCwB8f/ian-dooley-d1-UPki-Fd04-A-unsplash.jpg",
 
-            "name":"",
+            "name":"James Stone",
 
-            "title":""
+            "title":"Customer",
+
+            "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         }
     ],
 
     "blog":[
 
         {
-            "image":"",
+            "image":"https://i.ibb.co/5XZDtRfz/aiony-haust-IXYxq-P4zejo-unsplash.jpg",
 
-            "title":"",
+            "title":"Fashion Everywhere",
 
-            "date":""
+            "date":"Dec 11, 2025"
         },
 
         {
-            "image":"",
+            "image":"https://i.ibb.co/5XZDtRfz/aiony-haust-IXYxq-P4zejo-unsplash.jpg",
 
-            "title":"",
+            "title":"Fashion Everywhere",
 
-            "date":""
+            "date":"Dec 11, 2025"
         },
 
         {
-            "image":"",
+            "image":"https://i.ibb.co/5XZDtRfz/aiony-haust-IXYxq-P4zejo-unsplash.jpg",
 
-            "title":"",
+            "title":"Fashion Everywhere",
 
-            "date":""
+            "date":"Dec 11, 2025"
         },
 
         {
-            "image":"",
+            "image":"https://i.ibb.co/5XZDtRfz/aiony-haust-IXYxq-P4zejo-unsplash.jpg",
 
-            "title":"",
+            "title":"Fashion Everywhere",
 
-            "date":""
+            "date":"Dec 11, 2025"
         }
     ]
 }
