@@ -2,11 +2,250 @@
 
 {
 
+    "brand":{
 
+        "name":"Fitdaily",
 
+        "image":"https://i.ibb.co/27DyhJHG/victor-freitas-Wv-DYd-XDzkhs-unsplash.jpg",
 
+        "tagline":"Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aenean pretium sollicitudin, nascetur auci elit consequat ipsutissem niuis sed odio sit amet nibh vulputate cursus a amet."
+    },
 
+    "contact":{
 
+        "phone":"+2 345 545 434",
+
+        "email":"info@fitdaily.cmr",
+
+        "address":"123 mount drive, cybercity 2347"
+    },
+
+    "social":[
+
+        {
+            "name":"Facebook",
+
+            "url":""
+        },
+
+        {
+            "name":"Twitter",
+
+            "url":""
+        },
+
+        {
+            "name":"Instagram",
+
+            "url":""
+        }
+    ],
+
+    "services":{
+
+        "image":"https://i.ibb.co/nTPtRCs/thomas-yohei-BAl-BUJb-SXQ-unsplash.jpg",
+
+        "serviceList":[
+
+            {
+                "name":"Workout",
+    
+                "description":"Aenean massa. Cum sociis Theme et natoque penatibus et magnis dis part urient montes."
+            },
+    
+            {
+                "name":"Weight Loss",
+    
+                "description":"Aenean massa. Cum sociis Theme et natoque penatibus et magnis dis part urient montes."
+            },
+    
+            {
+                "name":"Yoga",
+    
+                "description":"Aenean massa. Cum sociis Theme et natoque penatibus et magnis dis part urient montes."
+            }
+        ]
+    },
+
+    "trainers":[
+
+        {
+            "image":"https://i.ibb.co/7fG07Lw/ivana-cajina-7-Lb-C5-J-jw4-unsplash.jpg",
+
+            "name":"Born Spencer",
+
+            "title":"Dance Trainer",
+
+            "description":"non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        },
+
+        {
+            "image":"https://i.ibb.co/7fG07Lw/ivana-cajina-7-Lb-C5-J-jw4-unsplash.jpg",
+
+            "name":"Born Spencer",
+
+            "title":"Dance Trainer",
+
+            "description":"non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        },
+
+        {
+            "image":"https://i.ibb.co/7fG07Lw/ivana-cajina-7-Lb-C5-J-jw4-unsplash.jpg",
+
+            "name":"Born Spencer",
+
+            "title":"Dance Trainer",
+
+            "description":"non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        },
+
+        {
+            "image":"https://i.ibb.co/7fG07Lw/ivana-cajina-7-Lb-C5-J-jw4-unsplash.jpg",
+
+            "name":"Born Spencer",
+
+            "title":"Dance Trainer",
+
+            "description":"non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+        }
+    ],
+
+    "testimonials":[
+
+        {
+            "image":"https://i.ibb.co/JWts63xq/ian-dooley-d1-UPki-Fd04-A-unsplash.jpg",
+
+            "name":"Patrick Smith",
+
+            "title":"Leader",
+
+            "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+
+        {
+            "image":"https://i.ibb.co/JWts63xq/ian-dooley-d1-UPki-Fd04-A-unsplash.jpg",
+
+            "name":"Patrick Smith",
+
+            "title":"Leader",
+
+            "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+
+        {
+            "image":"https://i.ibb.co/JWts63xq/ian-dooley-d1-UPki-Fd04-A-unsplash.jpg",
+
+            "name":"Patrick Smith",
+
+            "title":"Leader",
+
+            "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+
+        {
+            "image":"https://i.ibb.co/JWts63xq/ian-dooley-d1-UPki-Fd04-A-unsplash.jpg",
+
+            "name":"Patrick Smith",
+
+            "title":"Leader",
+
+            "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        }
+    ],
+
+    "pricing":[
+
+        {
+            "type":"Basic",
+
+            "price":"$17",
+
+            "duration":"12 months",
+
+            "personalTrainer":"00",
+
+            "amountOfPeople":"01",
+
+            "numberOfVisits":"Unlimited"
+        },
+
+        {
+            "type":"Standard",
+
+            "price":"$57",
+
+            "duration":"12 months",
+
+            "personalTrainer":"00",
+
+            "amountOfPeople":"01",
+
+            "numberOfVisits":"Unlimited"
+        },
+
+        {
+            "type":"Premium",
+
+            "price":"$98",
+
+            "duration":"12 months",
+
+            "personalTrainer":"00",
+
+            "amountOfPeople":"01",
+
+            "numberOfVisits":"Unlimited"
+        }
+    ],
+
+    "callToActionSection":{
+
+        "image":"https://i.ibb.co/27DyhJHG/victor-freitas-Wv-DYd-XDzkhs-unsplash.jpg",
+
+        "content":"Gimply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard."
+    },
+
+    "aboutSection":{
+
+        "image":"https://i.ibb.co/60gtk3G1/jonathan-borba-lr-QPTQs7n-QQ-unsplash.jpg",
+
+        "content":"Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aenean pretium sollicitudin, nascetur auci elit consequat ipsutissem niuis sed odio sit amet nibh vulputate cursus a amet. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, gravida quam semper libero sit amet. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, gravida quam semper libero sit amet."
+    },
+
+    "classes":[
+
+        {
+            "name":"Yogo Training",
+
+            "trainer":"Ryan Becker",
+
+            "image":"https://i.ibb.co/27DyhJHG/victor-freitas-Wv-DYd-XDzkhs-unsplash.jpg"
+        },
+
+        {
+            "name":"Yogo Training",
+
+            "trainer":"Ryan Becker",
+
+            "image":"https://i.ibb.co/27DyhJHG/victor-freitas-Wv-DYd-XDzkhs-unsplash.jpg"
+        },
+
+        {
+            "name":"Yogo Training",
+
+            "trainer":"Ryan Becker",
+
+            "image":"https://i.ibb.co/27DyhJHG/victor-freitas-Wv-DYd-XDzkhs-unsplash.jpg"
+        },
+
+        {
+            "name":"Yogo Training",
+
+            "trainer":"Ryan Becker",
+
+            "image":"https://i.ibb.co/27DyhJHG/victor-freitas-Wv-DYd-XDzkhs-unsplash.jpg"
+        }
+    ]
 }
 
 
