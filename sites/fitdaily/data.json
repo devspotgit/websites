@@ -41,6 +41,27 @@
         }
     ],
 
+    "aboutHero":{
+
+        "name":"About",
+
+        "image":"https://i.ibb.co/BmnFwNV/thomas-yohei-BAl-BUJb-SXQ-unsplash.jpg"
+    },
+
+    "contactHero":{
+
+        "name":"Contact",
+
+        "image":"https://i.ibb.co/k2QDtRz9/jonathan-borba-lr-QPTQs7n-QQ-unsplash.jpg"
+    },
+
+    "classesHero":{
+
+        "name":"Classes",
+
+        "image":"https://i.ibb.co/pvtxwq5Y/victor-freitas-Wv-DYd-XDzkhs-unsplash.jpg"
+    },
+
     "services":{
 
         "image":"https://i.ibb.co/nTPtRCs/thomas-yohei-BAl-BUJb-SXQ-unsplash.jpg",
@@ -80,7 +101,7 @@
         },
 
         {
-            "image":"https://i.ibb.co/7fG07Lw/ivana-cajina-7-Lb-C5-J-jw4-unsplash.jpg",
+            "image":"https://i.ibb.co/JWts63xq/ian-dooley-d1-UPki-Fd04-A-unsplash.jpg",
 
             "name":"Born Spencer",
 
@@ -100,7 +121,7 @@
         },
 
         {
-            "image":"https://i.ibb.co/7fG07Lw/ivana-cajina-7-Lb-C5-J-jw4-unsplash.jpg",
+            "image":"https://i.ibb.co/JWts63xq/ian-dooley-d1-UPki-Fd04-A-unsplash.jpg",
 
             "name":"Born Spencer",
 
@@ -198,7 +219,7 @@
         }
     ],
 
-    "callToActionSection":{
+    "callToAction":{
 
         "image":"https://i.ibb.co/27DyhJHG/victor-freitas-Wv-DYd-XDzkhs-unsplash.jpg",
 
@@ -206,6 +227,8 @@
     },
 
     "aboutSection":{
+
+        "title":"Story about us",
 
         "image":"https://i.ibb.co/60gtk3G1/jonathan-borba-lr-QPTQs7n-QQ-unsplash.jpg",
 
@@ -215,7 +238,7 @@
     "classes":[
 
         {
-            "name":"Yogo Training",
+            "name":"Yoga Training",
 
             "trainer":"Ryan Becker",
 
@@ -223,7 +246,7 @@
         },
 
         {
-            "name":"Yogo Training",
+            "name":"Yoga Training",
 
             "trainer":"Ryan Becker",
 
@@ -231,7 +254,7 @@
         },
 
         {
-            "name":"Yogo Training",
+            "name":"Yoga Training",
 
             "trainer":"Ryan Becker",
 
@@ -239,7 +262,7 @@
         },
 
         {
-            "name":"Yogo Training",
+            "name":"Yoga Training",
 
             "trainer":"Ryan Becker",
 

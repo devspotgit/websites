@@ -1,0 +1,54 @@
+/* ------------------------ classes ------------------------ */
+.classes-section{
+    padding-block:40px;
+}
+
+.classes-section-content{
+    grid-column:2/3;
+    display:flex;
+    flex-direction:column;
+    gap:40px;
+}
+
+.class-list{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap:20px;
+}
+
+.class-item{
+    position:relative;
+    aspect-ratio:3/2;
+    overflow:hidden;
+    border:5px solid var(--primary-lighter);
+}
+
+.class-item:hover .class-item-content{
+    bottom:0;
+}
+
+.class-item-content{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    position:absolute;
+    bottom:-200px;
+    left:0;
+    padding:10px;
+    background-color:rgba(0,0,0,0.7);
+    width:100%;
+    box-sizing:border-box;
+    transition:bottom 0.5s;
+}
+
+.class-item-content > span:first-child{
+    font-size:1.1rem;
+    color:var(--primary-lighter);
+}
+
+.class-item-content > span:last-child{
+    color:var(--white);
+}
+
+
+

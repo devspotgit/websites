@@ -1,0 +1,54 @@
+/* ------------------------ home hero ------------------------ */
+.home-hero{
+    height:500px;
+    z-index:1;
+    position:relative;
+}
+
+/* background image */
+.home-hero > img{
+    z-index:1;
+}
+
+/* overlay */
+.home-hero > div:first-of-type{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%; 
+    background-color:rgba(0,0,0,0.7);
+    z-index:2;
+}
+
+.home-hero-content{
+    grid-column:2/3;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap:30px;
+    z-index:3;
+    max-width:600px;
+}
+
+/* site name */
+.home-hero-content > span{
+    font-size:3rem;
+    color:var(--white);
+}
+
+/* tag line */
+.home-hero-content > p{
+    font-size:1.1rem;
+    color:var(--primary-lighter-plus);
+    line-height:1.6;
+}
+
+/* action button */
+.home-hero-content > a{
+    align-self:start;
+    padding:15px;
+    background-color:var(--primary);
+    color:var(--white);
+}
+

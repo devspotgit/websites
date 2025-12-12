@@ -6,36 +6,31 @@ const fs = require("fs")
 const data = JSON.parse(fs.readFileSync(path.join(__dirname, "data.json"), "utf-8"))
 
 
-// components
-function serviceItem(){
-
+/* ------------------------ components ---------------------- */
+function sectionTitle(title){
+    
+    return `
+        <div class="section-title">
+            <div class="section-title-top">
+                <span></span>
+            </div>
+            <span>${title}</span>
+            <div class="section-title-bottom">
+                <span></span>
+            </div>
+        </div>
+    `
 }
 
-function testimonialItem(){
+function heroTitle(title){
 
-}
-
-function pricingItem(){
-
-}
-
-function trainerItem(){
-
-}
-
-function classItem(){
-
-}
-
-function sectionTitle(){
-
+    return `
+        <div class="hero-title"></div>
+    `
 }
 
 
-
-
-
-// page sections
+/* ------------------------ page sections ---------------------- */ 
 function header(menu){
 
     return `
@@ -79,7 +74,7 @@ function pageHero(page){
         <div class="page-hero">
             <div class="page-hero-content">
                 <img src="${page.image}">
-                <span>${page.name}</span>
+                ${heroTitle(page.name)}
             </div>
         </div>
     `
@@ -139,30 +134,149 @@ function aboutSection(){
 
     return `
         <div class="about-section">
-        
+            <div class="about-section-content">
+                <div class="about-section-image-wrapper">
+                    <img src="${data.aboutSection.image}">
+                </div>
+                <div class="about-section-description">
+                    <span>${data.aboutSection.title}</span>
+                    <p>${data.aboutSection.content}</p>
+                    <a href="about.html">Read More</a>
+                </div>
+            </div>
         </div>
     `
 }
 
-function classSection(){
+function services(){
 
+    return `
+        <div class="services">
+            <div class="service-content">
+                <div class="service-list">
+                    ${
+                        data.services.serviceList.map(service => `
+                            <div class="service-item">
+                                <span>${service.name}</span>
+                                <p>${service.description}</p>
+                            </div>
+                        `).join(" ")
+                    }
+                </div>
+                <div class="service-image-wrapper">
+                    <img src="${data.services.image}">
+                </div>
+            </div>
+        </div>
+    `
+}
+
+function classesSection(){
+
+    return `
+        <div class="classes-section">
+            <div class="classes-section-content">
+                ${sectionTitle("Our Classes")}
+                <div class="class-list">
+                    ${
+                        data.classes.map(item => `
+                            <div class="class-item">
+                                <img src="${item.image}">
+                                <div class="class-item-content">
+                                    <span>${item.name}</span>
+                                    <span>${item.trainer}</span>
+                                </div>
+                            </div>
+                        `).join(" ")
+                    }
+                </div>
+            </div>
+        </div>
+    `
 }
 
 function trainers(){
 
+    return `
+        <div class="trainers">
+            <div class="trainers-content">
+                ${sectionTitle("Expert Trainers")}
+                <div class="trainer-list">
+                    ${
+                        data.trainers.map(trainer => `
+                            <div class="trainer-item">
+                                <div class="trainer-image-wrapper">
+                                    <img src="${trainer.image}">
+                                </div>
+                                <div class="trainer-item-content">
+                                    <div class="trainer-item-header">
+                                        <span>${trainer.name}</span>
+                                        <span>${trainer.title}</span>
+                                    </div>
+                                    <div class="trainer-item-body">
+                                        <p>${trainer.description}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        `).join(" ")
+                    }
+                </div>
+                <div class="trainer-selector">
+                    ${
+                        data.trainers.map(() => `
+                            <button></button>
+                        `).join(" ")
+                    }
+                </div>
+            </div>
+        </div>
+    `
 }
 
-function testimonials(){
-
-}
 
 function callToAction(){
 
+    return `
+        <div class="call-to-action">
+            <img src="${data.callToAction.image}">
+            <div></div>
+            <div class="call-to-action-content">
+                <span>START TRAINING TODAY</span>
+                <p>${data.callToAction.content}</p>
+                <a href="contact.html">Contact Now</a>
+            </div>
+        </div>
+    `
 }
 
-function services(){
 
+function testimonials(){
+
+    return `
+        <div class="testimonials">
+            <div class="testimonial-content">
+                ${sectionTitle("Success Story")}
+                <div class="testimonial-list">
+                    ${
+                        data.testimonials.map(item => `
+                            <div class="testimonial-item">
+                                <p>${item.content}</p>
+                                <img src="${item.image}">
+                                <span>${item.name}</span>
+                                <span>${item.title}</span>
+                            </div>
+                        `).join(" ")
+                    }
+                </div>
+                <div>
+                    <button></button>
+                    <button></button>
+                </div>
+            </div>
+        </div>
+    `
 }
+
 
 function price(){
 
@@ -178,7 +292,7 @@ function contactSection(){
 
 
 
-// full page templates
+/* ------------------------ full page templates ---------------------- */
 function home(){
 
     return `
@@ -189,18 +303,24 @@ function home(){
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <title>${data.brand.name} - Home</title>
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-                <link rel="stylesheet" href="public/css/main.css">
+                <link rel="stylesheet" href="public/css/home.css">
             </head>
             <body>
                 <div class="root">
                     ${header("home")}
                     <div class="main">
                         ${homeHero()}
-                        
+                        ${aboutSection()}
+                        ${services()}
+                        ${classesSection()}
+                        ${trainers()}
+                        ${callToAction()}
+                        ${testimonials()}
+
                     </div>
                     ${footer()}
                 </div>
-                <script type="module" src="public/js/main.js"></script>
+                <script type="module" src="public/js/home.js"></script>
             </body>
         </html>
     ` 
@@ -209,21 +329,81 @@ function home(){
 function about(){
 
     return `
-    
+        <!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>${data.brand.name} - About</title>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+                <link rel="stylesheet" href="public/css/about.css">
+            </head>
+            <body>
+                <div class="root">
+                    ${header("home")}
+                    <div class="main">
+                       
+                        
+                    </div>
+                    ${footer()}
+                </div>
+                <script type="module" src="public/js/about.js"></script>
+            </body>
+        </html>
     `
 }
 
 function contact(){
 
     return `
-    
+        <!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>${data.brand.name} - Contact</title>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+                <link rel="stylesheet" href="public/css/contact.css">
+            </head>
+            <body>
+                <div class="root">
+                    ${header("home")}
+                    <div class="main">
+                       
+                        
+                    </div>
+                    ${footer()}
+                </div>
+                <script type="module" src="public/js/contact.js"></script>
+            </body>
+        </html>
     `
 }
 
 function classes(){
 
     return `
-    
+        <!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>${data.brand.name} - Classes</title>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+                <link rel="stylesheet" href="public/css/classes.css">
+            </head>
+            <body>
+                <div class="root">
+                    ${header("home")}
+                    <div class="main">
+                       
+                        
+                    </div>
+                    ${footer()}
+                </div>
+                <script type="module" src="public/js/classes.js"></script>
+            </body>
+        </html>
     `
 }
 
