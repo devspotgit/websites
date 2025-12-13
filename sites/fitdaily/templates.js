@@ -25,7 +25,11 @@ function sectionTitle(title){
 function heroTitle(title){
 
     return `
-        <div class="hero-title"></div>
+        <div class="hero-title">
+            <span></span>
+            <span>${title}</span>
+            <span></span>
+        </div>
     `
 }
 
@@ -72,8 +76,9 @@ function pageHero(page){
 
     return `
         <div class="page-hero">
+            <img src="${page.image}">
+            <div></div>
             <div class="page-hero-content">
-                <img src="${page.image}">
                 ${heroTitle(page.name)}
             </div>
         </div>
@@ -233,7 +238,6 @@ function trainers(){
     `
 }
 
-
 function callToAction(){
 
     return `
@@ -249,7 +253,6 @@ function callToAction(){
     `
 }
 
-
 function testimonials(){
 
     return `
@@ -261,35 +264,96 @@ function testimonials(){
                         data.testimonials.map(item => `
                             <div class="testimonial-item">
                                 <p>${item.content}</p>
-                                <img src="${item.image}">
+                                <div class="testimonial-image-wrapper">
+                                    <img src="${item.image}">
+                                </div>
                                 <span>${item.name}</span>
                                 <span>${item.title}</span>
                             </div>
                         `).join(" ")
                     }
                 </div>
-                <div>
-                    <button></button>
-                    <button></button>
+                <div class="testimonial-control">
+                    <button><i class="fa-solid fa-arrow-left"></i></button>
+                    <button><i class="fa-solid fa-arrow-right"></i></button>
                 </div>
             </div>
         </div>
     `
 }
 
+function pricing(){
 
-function price(){
-
-}
-
-function register(){
-
+    return `
+        <div class="pricing">
+            <div class="pricing-content">
+                ${sectionTitle("Membership Plan")}
+                <div class="pricing-list">
+                    ${
+                        data.pricing.map(item => `
+                            <div class="pricing-item">
+                                <div class="pricing-item-header">
+                                    <span>${item.type}</span>
+                                </div>
+                                <div class="pricing-item-body">
+                                    <span>${item.price}</span>
+                                    <div class="pricing-item-feature">
+                                        <span>Duration</span>
+                                        <span>${item.duration}</span>
+                                    </div>
+                                    <div class="pricing-item-feature">
+                                        <span>Personal Trainer</span>
+                                        <span>${item.personalTrainer}</span>
+                                    </div>
+                                    <div class="pricing-item-feature">
+                                        <span>Amount Of People</span>
+                                        <span>${item.amountOfPeople}</span>
+                                    </div>
+                                    <div class="pricing-item-feature">
+                                        <span>Number of visits</span>
+                                        <span>${item.numberOfVisits}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        `).join(" ")
+                    }
+                </div>
+            </div>
+        </div>
+    `
 }
 
 function contactSection(){
 
+    return `
+        <div class="contact-section">
+            <div class="contact-section-content">
+                <div class="contact-info">
+                    <span>Contact us</span>
+                    <div class="contact-info-item">
+                        <span>Our Location</span>
+                        <span>${data.contact.address}</span>
+                    </div>
+                    <div class="contact-info-item">
+                        <span>Phone</span>
+                        <a href="tel:${data.contact.phone}">${data.contact.phone}</a>
+                    </div>
+                    <div class="contact-info-item">
+                        <span>Email</span>
+                        <a href="mailto:${data.contact.email}">${data.contact.email}</a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <span>Leave a message</span>
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Message"></textarea>
+                    <button>Send Message</button>
+                </form>
+            </div>
+        </div>
+    `
 }
-
 
 
 /* ------------------------ full page templates ---------------------- */
@@ -316,7 +380,7 @@ function home(){
                         ${trainers()}
                         ${callToAction()}
                         ${testimonials()}
-
+                        ${pricing()}
                     </div>
                     ${footer()}
                 </div>
@@ -340,10 +404,12 @@ function about(){
             </head>
             <body>
                 <div class="root">
-                    ${header("home")}
+                    ${header("about")}
                     <div class="main">
-                       
-                        
+                        ${pageHero(data.aboutHero)}
+                        ${aboutSection()}
+                        ${callToAction()}
+                        ${trainers()}
                     </div>
                     ${footer()}
                 </div>
@@ -367,10 +433,10 @@ function contact(){
             </head>
             <body>
                 <div class="root">
-                    ${header("home")}
+                    ${header("contact")}
                     <div class="main">
-                       
-                        
+                        ${pageHero(data.contactHero)}
+                        ${contactSection()}
                     </div>
                     ${footer()}
                 </div>
@@ -394,10 +460,13 @@ function classes(){
             </head>
             <body>
                 <div class="root">
-                    ${header("home")}
+                    ${header("classes")}
                     <div class="main">
-                       
-                        
+                        ${pageHero(data.classesHero)}
+                        ${classesSection()}
+                        ${aboutSection()}
+                        ${callToAction()}
+                        ${testimonials()}
                     </div>
                     ${footer()}
                 </div>

@@ -112,6 +112,23 @@ button{
     width:0;
 }
 
+/* ------------------------ hero title ------------------------ */
+.hero-title{
+    display:flex;
+    gap:20px;
+    align-items:center;
+}
+
+.hero-title > span:first-child, .hero-title > span:last-child{
+    height:2px;
+    background-color:var(--primary-light);
+    width:50px;
+}
+
+.hero-title > span:nth-child(2){
+    color:var(--white);
+    font-size:2rem;
+}
 
 
 
