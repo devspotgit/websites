@@ -1,0 +1,60 @@
+/* ---------------------- util ------------------------ */
+:root{
+    --primary:hsl(120, 100%, 20%);
+    --primary-light:hsl(120, 100%, 40%);
+    --primary-lighter:hsl(120, 100%, 60%);
+    --primary-lighter-plus:hsl(120, 100%, 80%);
+    --black:hsl(0, 0%, 0%);
+    --grey:hsl(0, 0%, 20%);
+    --grey-light:hsl(0, 0%, 40%);
+    --grey-lighter:hsl(0, 0%, 60%);
+    --grey-lighter-plus:hsl(0, 0%, 80%);
+    --white:hsl(0, 0%, 100%);
+}
+
+*{
+    padding:0;
+    margin:0;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+button, input, textarea{
+    border-width:0;
+    font-size:inherit;
+    font-family:inherit;
+}
+
+button{
+    background-color:transparent;
+    cursor:pointer;
+}
+
+.main{
+    display:grid;
+    min-width:400px;
+    min-height:100vh;
+    grid-template-columns:minmax(40px, auto) minmax(320px, 900px) minmax(40px, auto);
+    grid-template-rows:80px auto max-content;
+}
+
+.main > *{
+    grid-column:1/-1;
+    display:grid;
+    grid-template-columns:subgrid;
+}
+
+.body{
+    grid-auto-rows:max-content;
+}
+
+.body > *{
+    display:grid;
+    grid-column:1/-1;
+    grid-template-columns:subgrid;
+}
+
+

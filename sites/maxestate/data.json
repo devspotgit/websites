@@ -3,23 +3,228 @@
 
     "brand":{
 
+        "image":"https://i.ibb.co/8DNTRTfC/ronnie-george-9g-Gv-NWBe-Oq4-unsplash.jpg",
+
         "name":"Maxestate",
 
-        "tagline":"",
+        "tagline":"Your Property Is Our Priority",
 
-        "description":""
+        "description":"A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
     },
 
     "contact":{
 
-        "phone":"",
+        "phone":"+2 345 434 3453",
 
-        "address":"",
+        "address":"256 roman street, glovecity 2344",
 
-        "email":""
+        "email":"info@maxestate.cmr"
+    },
+
+    "categories":[
+
+        {
+            "type":"Land",
+
+            "content":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+        },
+
+        {
+            "type":"Residential",
+
+            "content":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+        },
+
+        {
+            "type":"Commercial",
+
+            "content":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+        },
+
+        {
+            "type":"Industrial",
+
+            "content":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+        }
+    ],
+
+    "properties":[
+
+        {
+            "image":"https://i.ibb.co/xtQ9s0k5/francesca-tosolini-t-Hk-JAMc-O3-QE-unsplash.jpg",
+
+            "price":"$5000",
+
+            "name":"Sunny Loft Property",
+
+            "city":"New York"
+        },
+
+        {
+            "image":"https://i.ibb.co/8DNTRTfC/ronnie-george-9g-Gv-NWBe-Oq4-unsplash.jpg",
+
+            "price":"$5000",
+
+            "name":"Sunny Loft Property",
+
+            "city":"New York"
+        },
+
+        {
+            "image":"https://i.ibb.co/B5Kdf2cm/francesca-tosolini-6jap-TIj-UQo-I-unsplash.jpg",
+
+            "price":"$5000",
+
+            "name":"Sunny Loft Property",
+
+            "city":"New York"
+        },
+
+        {
+            "image":"https://i.ibb.co/4w5X7WDp/lotus-design-n-print-w-Rz-Barqn3hs-unsplash.jpg",
+
+            "price":"$5000",
+
+            "name":"Sunny Loft Property",
+
+            "city":"New York"
+        }
+    ],
+
+    "testimonials":[
+
+        {
+            "image":"https://i.ibb.co/MySCwB8f/ian-dooley-d1-UPki-Fd04-A-unsplash.jpg",
+
+            "name":"Jhon Doe",
+
+            "title":"Marketing Manager",
+
+            "content":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+        },
+
+        {
+            "image":"https://i.ibb.co/PL5VB07/ivana-cajina-7-Lb-C5-J-jw4-unsplash.jpg",
+
+            "name":"Jhon Doe",
+
+            "title":"Marketing Manager",
+
+            "content":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+        },
+
+        {
+            "image":"https://i.ibb.co/MySCwB8f/ian-dooley-d1-UPki-Fd04-A-unsplash.jpg",
+
+            "name":"Jhon Doe",
+
+            "title":"Marketing Manager",
+
+            "content":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+        },
+
+        {
+            "image":"https://i.ibb.co/PL5VB07/ivana-cajina-7-Lb-C5-J-jw4-unsplash.jpg",
+
+            "name":"Jhon Doe",
+
+            "title":"Marketing Manager",
+
+            "content":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+        }
+    ],
+
+    "agents":[
+
+        {
+            "image":"https://i.ibb.co/PL5VB07/ivana-cajina-7-Lb-C5-J-jw4-unsplash.jpg",
+
+            "name":"Jacob Maxwell"
+        },
+
+        {
+            "image":"https://i.ibb.co/MySCwB8f/ian-dooley-d1-UPki-Fd04-A-unsplash.jpg",
+
+            "name":"Jacob Maxwell"
+        },
+
+        {
+            "image":"https://i.ibb.co/PL5VB07/ivana-cajina-7-Lb-C5-J-jw4-unsplash.jpg",
+
+            "name":"Jacob Maxwell"
+        },
+
+        {
+            "image":"https://i.ibb.co/MySCwB8f/ian-dooley-d1-UPki-Fd04-A-unsplash.jpg",
+
+            "name":"Jacob Maxwell"
+        }
+    ],
+
+    "ctaSection":{
+
+        "title":"Modern Houses",
+
+        "image":"https://i.ibb.co/xtQ9s0k5/francesca-tosolini-t-Hk-JAMc-O3-QE-unsplash.jpg",
+
+        "content":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    },
+
+    "gitSection":{
+
+        "title":"Find Best Place For Leaving",
+
+        "content":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    },
+
+    "aboutHeroSection":{
+
+        "image":"https://i.ibb.co/4w5X7WDp/lotus-design-n-print-w-Rz-Barqn3hs-unsplash.jpg",
+
+        "name":"About"
+    },
+
+    "contactHeroSection":{
+
+        "image":"https://i.ibb.co/B5Kdf2cm/francesca-tosolini-6jap-TIj-UQo-I-unsplash.jpg",
+
+        "name":"Contact"
+    },
+
+    "aboutSection":{
+
+        "title":"We are a real estate company",
+
+        "content":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+
+        "image":"https://i.ibb.co/4w5X7WDp/lotus-design-n-print-w-Rz-Barqn3hs-unsplash.jpg",
+
+        "achievements":[
+            
+            {
+                "type":"Years of Experience",
+
+                "value":"50"
+            },
+
+            {
+                "type":"Total Properties",
+
+                "value":"210K+"
+            },
+
+            {
+                "type":"Qualified Realtors",
+
+                "value":"450"
+            },
+
+            {
+                "type":"Total Branches",
+
+                "value":"100"
+            }
+        ]
     }
-
-
-
 }
 
