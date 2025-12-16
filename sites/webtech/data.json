@@ -1,0 +1,308 @@
+
+{
+
+    "brand":{
+
+        "name":"Webtech",
+
+        "tagline":"Reshaping the future of technology",
+
+        "description":"We are a team of technology advisors helping organizations unlock the potential of AI and digital transformation. From strategy to execution, we guide businesses in adopting intelligent solutions.",
+
+        "image":"https://i.ibb.co/QvrpG98z/thisisengineering-ZPe-Xr-Wx-Oj-RQ-unsplash.jpg"
+    },
+
+    "contact":{
+
+        "phone":"+2 345 433 2344",
+
+        "email":"info@webtech.cmr",
+
+        "address":"366 summerhall, greencity"
+    },
+
+    "expertises":[
+
+        {
+            "name":"AI strategy & advisory",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+
+        {
+            "name":"Data & analytics",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+
+        {
+            "name":"Digital transformation",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+
+        {
+            "name":"Emerging tech innovation",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+    ],
+
+    "industries":[
+
+        {
+            "name":"Enterprises",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+            "image":"https://i.ibb.co/QvrpG98z/thisisengineering-ZPe-Xr-Wx-Oj-RQ-unsplash.jpg"
+        },
+
+        {
+            "name":"Financial Institutions",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+            "image":"https://i.ibb.co/G4mNHtHh/alex-knight-2-EJCSULRw-C8-unsplash.jpg"
+        },
+
+        {
+            "name":"Healthcare",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+            "image":"https://i.ibb.co/kgX90MJ9/thisisengineering-sb-Vu5zit-Zt0-unsplash.jpg"
+        },
+
+        {
+            "name":"Public Sector",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+            "image":"https://i.ibb.co/rKjMF6vD/umberto-j-Xd2-FSvc-Rr8-unsplash.jpg"
+        }
+    ],
+
+    "statistics":[
+
+        {
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+            "name":"Projects delivered",
+
+            "number":"200+"
+        },
+
+        {
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+            "name":"efficiency gained",
+
+            "number":"40%"
+        },
+
+        {
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+            "name":"years experience",
+
+            "number":"15+"
+        }
+    ],
+
+    "works":[
+
+        {
+            "title":"Augmented reality solutions for retail innovation",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+            "image":"https://i.ibb.co/rKjMF6vD/umberto-j-Xd2-FSvc-Rr8-unsplash.jpg"
+        },
+
+        {
+            "title":"Predictive insights for global bank",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+            "image":"https://i.ibb.co/QvrpG98z/thisisengineering-ZPe-Xr-Wx-Oj-RQ-unsplash.jpg"
+        },
+
+        {
+            "title":"Scaling digital heights for a tech enterprise",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+            "image":"https://i.ibb.co/kgX90MJ9/thisisengineering-sb-Vu5zit-Zt0-unsplash.jpg"
+        },
+
+        {
+            "title":"Smart personalization for smartphones",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+            "image":"https://i.ibb.co/G4mNHtHh/alex-knight-2-EJCSULRw-C8-unsplash.jpg"
+        }
+    ],
+
+    "testimonials":[
+
+        {
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+            "name":"John Carter",
+
+            "title":"Managing Director"
+        },
+
+        {
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+            "name":"John Carter",
+
+            "title":"Managing Director"
+        },
+
+        {
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+            "name":"John Carter",
+
+            "title":"Managing Director"
+        },
+
+        {
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+            "name":"John Carter",
+
+            "title":"Managing Director"
+        }
+    ],
+
+    "blog":[
+
+        {
+            "image":"https://i.ibb.co/G4mNHtHh/alex-knight-2-EJCSULRw-C8-unsplash.jpg",
+
+            "date":"August 12, 2025",
+
+            "name":"The future of AI in healthcare"
+        },
+
+        {
+            "image":"https://i.ibb.co/rKjMF6vD/umberto-j-Xd2-FSvc-Rr8-unsplash.jpg",
+
+            "date":"August 12, 2025",
+
+            "name":"Building trust in financial AI systems"
+        },
+
+        {
+            "image":"https://i.ibb.co/kgX90MJ9/thisisengineering-sb-Vu5zit-Zt0-unsplash.jpg",
+
+            "date":"August 12, 2025",
+
+            "name":"Digital transformation in enterprises"
+        },
+
+        {
+            "image":"https://i.ibb.co/QvrpG98z/thisisengineering-ZPe-Xr-Wx-Oj-RQ-unsplash.jpg",
+
+            "date":"August 12, 2025",
+
+            "name":"Redefining retail experiences"
+        }
+    ],
+
+    "team":[
+
+        {
+            "image":"https://i.ibb.co/MySCwB8f/ian-dooley-d1-UPki-Fd04-A-unsplash.jpg",
+
+            "name":"Jason Sin",
+
+            "title":"Executive Director"
+        },
+
+        {
+            "image":"https://i.ibb.co/PL5VB07/ivana-cajina-7-Lb-C5-J-jw4-unsplash.jpg",
+
+            "name":"Jason Sin",
+
+            "title":"Executive Director"
+        },
+
+        {
+            "image":"https://i.ibb.co/MySCwB8f/ian-dooley-d1-UPki-Fd04-A-unsplash.jpg",
+
+            "name":"Jason Sin",
+
+            "title":"Executive Director"
+        },
+
+        {
+            "image":"https://i.ibb.co/PL5VB07/ivana-cajina-7-Lb-C5-J-jw4-unsplash.jpg",
+
+            "name":"Jason Sin",
+
+            "title":"Executive Director"
+        }
+    ],
+
+    "process":[
+
+        {
+            "name":"Discovery & assessment",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+
+        {
+            "name":"Strategy & roadmap",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+
+        {
+            "name":"Infrastructure readiness",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+
+        {
+            "name":"Solution architecture",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+
+    ],
+
+    "faq":[
+
+        {
+            "question":"What industries do you work with?",
+
+            "answer":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+
+        {
+            "question":"How do you approach new client projects?",
+
+            "answer":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+
+        {
+            "question":"Do you only focus on AI solutions?",
+
+            "answer":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+
+        {
+            "question":"How do you ensure data security?",
+
+            "answer":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+    ]
+}
+

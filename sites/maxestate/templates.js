@@ -143,12 +143,13 @@ function aboutSection(){
     return `
         <div class="about-section">
             <div class="about-main">
+                <div></div>
                 <div class="about-header">
                     <img src="${data.aboutSection.image}">
                 </div>
                 <div class="about-body">
                     <span>${data.aboutSection.title}</span>
-                    <span>${data.aboutSection.content}</span>
+                    <p>${data.aboutSection.content}</p>
                     <div class="achievement-list">
                         ${
                             data.aboutSection.achievements.map(item => `
@@ -160,19 +161,6 @@ function aboutSection(){
                         }
                     </div>
                 </div>
-            </div>
-        </div>
-    `
-}
-
-function gitSection(){
-
-    return `
-        <div class="git-section">
-            <div class="git-body">
-                <span>${data.gitSection.title}</span>
-                <p>${data.gitSection.content}</p>
-                <a href="contact.html">Get in touch</a>
             </div>
         </div>
     `
@@ -202,9 +190,22 @@ function testimonialSection(){
                         `).join(" ")
                     }
                     <div class="testimonial-placeholder">
-                        <p>Testimonials</p>
+                        <p>Hover any client above to see their testimonial</p>
                     </div>
                 </div>
+            </div>
+        </div>
+    `
+}
+
+function gitSection(){
+
+    return `
+        <div class="git-section">
+            <div class="git-body">
+                <span>${data.gitSection.title}</span>
+                <p>${data.gitSection.content}</p>
+                <a href="contact.html">Get in touch</a>
             </div>
         </div>
     `
@@ -214,8 +215,24 @@ function agentSection(){
 
     return `
         <div class="agent-section">
-            <div>
-
+            <div class="agent-header">
+               <span>Our agents</span> 
+            </div>
+            <div class="agent-body">
+                <div class="agent-list">
+                    ${
+                        data.agents.map(item => `
+                            <div class="agent-item">
+                                <div class="agent-item-header">
+                                    <img src="${item.image}">
+                                </div>
+                                <div class="agent-item-body">
+                                    <span>${item.name}</span>
+                                </div>
+                            </div>    
+                        `).join(" ")
+                    }
+                </div>    
             </div>
         </div>
     `
@@ -238,11 +255,20 @@ function contactSection(){
 
     return `
         <div class="contact-section">
-        
+            <div class="contact-body">
+                <span>Contact Us</span>
+                <p>We're open for any suggestion or just to have a chat</p>
+                <form class="contact-form">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="text" placeholder="Subject" required>
+                    <textarea placeholder="Message" required></textarea>
+                    <button>Send Message</button>
+                </form>
+            </div>
         </div>
     `
 }
-
 
 /* ---------------------------- pages  -------------------------- */
 function home(){
@@ -264,7 +290,11 @@ function home(){
                         ${homeHeroSection()}
                         ${categorySection()}
                         ${propertySection()}
-                    
+                        ${ctaSection()}
+                        ${aboutSection()}
+                        ${testimonialSection()}
+                        ${gitSection()}
+                        ${agentSection()}
                     </div>
                     ${footer()}
                 </div>
@@ -277,14 +307,57 @@ function home(){
 function about(){
 
     return `
-    
+        <!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>${data.brand.name} - About</title>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+                <link rel="stylesheet" href="public/css/about.css">
+            </head>
+            <body>
+                <div class="main">
+                    ${header("home")}
+                    <div class="body">
+                        ${pageHeroSection(data.aboutHeroSection)}
+                        ${aboutSection()}
+                        ${ctaSection()}
+                        ${propertySection()}
+                        ${gitSection()}
+                    </div>
+                    ${footer()}
+                </div>
+                <script type="module" src="public/js/about.js"></script>
+            </body>
+        </html>
     `
 }
 
 function contact(){
 
     return `
-    
+        <!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>${data.brand.name} - Contact</title>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+                <link rel="stylesheet" href="public/css/contact.css">
+            </head>
+            <body>
+                <div class="main">
+                    ${header("home")}
+                    <div class="body">
+                        ${pageHeroSection(data.contactHeroSection)}
+                        ${contactSection()}
+                    </div>
+                    ${footer()}
+                </div>
+                <script type="module" src="public/js/contact.js"></script>
+            </body>
+        </html>
     `
 }
 

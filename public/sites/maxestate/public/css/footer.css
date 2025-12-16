@@ -18,9 +18,9 @@
 }
 
 .footer-item:first-child > a{
-    color:var(--white);
+    color:var(--primary-light);
     font-size:2rem;
-    border-bottom:1px solid var(--primary-light);
+    /* border-bottom:1px solid var(--primary-light); */
     padding-block:20px;
 }
 
