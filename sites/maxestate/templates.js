@@ -285,7 +285,7 @@ function home(){
             </head>
             <body>
                 <div class="main">
-                    ${header("home")}
+                    ${header()}
                     <div class="body">
                         ${homeHeroSection()}
                         ${categorySection()}
@@ -318,7 +318,7 @@ function about(){
             </head>
             <body>
                 <div class="main">
-                    ${header("home")}
+                    ${header()}
                     <div class="body">
                         ${pageHeroSection(data.aboutHeroSection)}
                         ${aboutSection()}
@@ -348,7 +348,7 @@ function contact(){
             </head>
             <body>
                 <div class="main">
-                    ${header("home")}
+                    ${header()}
                     <div class="body">
                         ${pageHeroSection(data.contactHeroSection)}
                         ${contactSection()}
