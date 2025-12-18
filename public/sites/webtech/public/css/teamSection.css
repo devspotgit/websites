@@ -1,0 +1,55 @@
+/* -------------------- team section --------------------- */
+.team-section{
+    margin-block:40px;
+    padding:40px;
+    background-color:var(--grey);
+}
+
+.team-body{
+    grid-column:2/3;
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+}
+
+.team-body > span{
+    text-align:center;
+    font-size:3rem;
+    color:var(--white);
+}
+
+.team-list{
+    display:grid;
+    grid-template-columns:repeat(auto-fill, minmax(250px, 1fr));
+    gap:30px;
+}
+
+.team-member{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.team-member > span:first-of-type{
+    font-size:1.3rem;
+    color:var(--grey-lighter-plus);    
+}
+.team-member > span:last-of-type{
+    color:var(--grey-light);
+}
+
+.team-member-image{
+    position:relative;
+    aspect-ratio:3/2;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.team-member-image > img{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}

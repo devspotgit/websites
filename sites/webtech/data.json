@@ -303,6 +303,18 @@
 
             "answer":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         }
-    ]
+    ],
+
+    "aboutHero":{
+        
+        "image":"https://i.ibb.co/rKjMF6vD/umberto-j-Xd2-FSvc-Rr8-unsplash.jpg",
+
+        "description":"We are a team of technology advisors helping organizations unlock the potential of AI and digital transformation."
+    },
+
+    "contactSection":{
+
+        "image":"https://i.ibb.co/kgX90MJ9/thisisengineering-sb-Vu5zit-Zt0-unsplash.jpg"
+    }
 }
 

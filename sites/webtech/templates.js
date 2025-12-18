@@ -189,7 +189,168 @@ function testimonialSection(){
 
     return `
         <div class="testimonial-section">
-        
+            <div class="testimonial-body">
+                <span>We have helped 100+ businesses</span>
+                <div class="testimonial-list">
+                    ${
+                        data.testimonials.map(item => `
+                            <div class="testimonial-item">
+                                <p>${item.description}</p>
+                                <span>${item.name}</span>
+                                <span>${item.title}</span>
+                            </div>
+                        `).join(" ")
+                    }
+                </div>
+                <div class="testimonial-control">
+                    ${
+                        data.testimonials.map( () => `
+                            <button></button>
+                        `).join(" ")
+                    }
+                </div>
+            </div>
+        </div>
+    `
+}
+
+function blogSection(){
+
+    return `
+        <div class="blog-section">
+            <div class="blog-body">
+                <span>Blog</span>
+                <div class="blog-list">
+                    ${
+                        data.blog.map( item => `
+                            <div class="blog-item">
+                                <div class="blog-item-image">
+                                    <img src="${item.image}">
+                                </div>
+                                <span>${item.date}</span>
+                                <span>${item.name}</span>
+                                <a href="">Learn More</a>
+                            </div>
+                        `).join(" ")
+                    }
+                </div>
+            </div>
+        </div>
+    `
+}
+
+function aboutHeroSection(){
+
+    return `
+        <div class="about-hero-section">
+            <div class="about-hero-body">
+                <span>About ${data.brand.name}</span>
+                <p>${data.aboutHero.description}</p>
+                <a href="">Explore our services</a>
+                <div class="about-hero-image">
+                    <img src="${data.aboutHero.image}">
+                </div>
+            </div>
+        </div>
+    `
+}
+
+function teamSection(){
+
+    return `
+        <div class="team-section">
+            <div class="team-body">
+                <span>Meet our team</span>
+                <div class="team-list">
+                    ${
+                        data.team.map(item => `
+                            <div class="team-member">
+                                <div class="team-member-image">
+                                    <img src="${item.image}">
+                                </div>
+                                <span>${item.name}</span>
+                                <span>${item.title}</span>
+                            </div>
+                        `).join(" ")
+                    }
+                </div>
+            </div>
+        </div>
+    `
+}
+
+function processSection(){
+
+    return `
+        <div class="accordion-section">
+            <div class="accordion-body">
+                <span>Proven process</span>
+                <div class="accordion-list">
+                    ${
+                        data.process.map((item, index) => `
+                            <input type="radio" name="process" id="process-${index}">
+                            <div class="accordion-item">
+                                <label for="process-${index}" class="accordion-item-header">
+                                    <span>${item.name}</span>
+                                    <span>+</span>
+                                    <span>-</span>
+                                </label>
+                                <div class="accordion-item-body">
+                                    <p>${item.description}</p>
+                                </div>
+                            </div>
+                        `).join(" ")
+                    }
+                </div>
+            </div>
+        </div>
+    `
+}
+
+function faqSection(){
+
+    return `
+        <div class="accordion-section">
+            <div class="accordion-body">
+                <span>Frequently asked questions</span>
+                <div class="accordion-list">
+                    ${
+                        data.faq.map((item, index) => `
+                            <input type="radio" name="faq" id="faq-${index}">
+                            <div class="accordion-item">
+                                <label for="faq-${index}" class="accordion-item-header">
+                                    <span>${item.question}</span>
+                                    <span>+</span>
+                                    <span>-</span>
+                                </label>
+                                <div class="accordion-item-body">
+                                    <p>${item.answer}</p>
+                                </div>
+                            </div>
+                        `).join(" ")
+                    }
+                </div>
+            </div>
+        </div>
+    `
+}
+
+function contactSection(){
+
+    return `
+        <div class="contact-section">
+            <div class="contact-body">
+                <div class="contact-image">
+                    <img src="${data.contactSection.image}">
+                </div>
+                <div class="contact-form">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="text" placeholder="Subject" required>
+                    <textarea placeholder="Message" required></textarea>
+                    <button>Send Message</button>
+                </div>
+            </div>
         </div>
     `
 }
@@ -216,7 +377,8 @@ function home(){
                         ${industrySection()}
                         ${statisticSection()}
                         ${workSection()}
-                        
+                        ${testimonialSection()}
+                        ${blogSection()}
                     </div>
                     ${footer()}
                 </div>
@@ -229,14 +391,55 @@ function home(){
 function about(){
 
     return `
-    
+        <!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>${data.brand.name} - About</title>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+                <link rel="stylesheet" href="public/css/about.css">
+            </head>
+            <body>
+                <div class="main">
+                    ${header()}
+                    <div class="body">
+                        ${aboutHeroSection()}
+                        ${teamSection()}
+                        ${processSection()}
+                    </div>
+                    ${footer()}
+                </div>
+                <script type="module" src="public/js/about.js"></script>
+            </body>
+        </html>
     `
 }
 
 function contact(){
 
     return `
-    
+        <!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>${data.brand.name} - Contact</title>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+                <link rel="stylesheet" href="public/css/contact.css">
+            </head>
+            <body>
+                <div class="main">
+                    ${header()}
+                    <div class="body">
+                       ${contactSection()}
+                       ${faqSection()}
+                    </div>
+                    ${footer()}
+                </div>
+                <script type="module" src="public/js/contact.js"></script>
+            </body>
+        </html>
     `
 }
 

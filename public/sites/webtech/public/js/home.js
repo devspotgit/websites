@@ -1,4 +1,6 @@
-import { headerControl  } from "./lib.js"
+import { headerControl, carousel } from "./lib.js"
 
 headerControl()
+
+carousel()
 
