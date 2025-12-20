@@ -9,7 +9,7 @@
     display:flex;
     align-items:center;
     padding-inline:40px;
-    background-image:linear-gradient(to right, var(--primary) 60%, var(--white) 40%);
+    background-image:linear-gradient(to right, var(--primary) 70%, var(--white) 30%);
 }
 
 .agent-header > span{
@@ -21,7 +21,7 @@
     grid-column:1/-1;
     display:grid;
     grid-template-columns:subgrid;
-     background-image:linear-gradient(to right, var(--primary) 60%, var(--white) 40%);
+     background-image:linear-gradient(to right, var(--primary) 70%, var(--white) 30%);
 }
 
 .agent-list{
