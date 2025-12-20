@@ -4,11 +4,168 @@
 
         "name":"Foodroyal",
 
-        "tagline":"",
+        "tagline":"Enjoy every bite",
 
-        "image":""
-    }
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 
+        "image":"https://i.ibb.co/NdKmBXhz/chad-montano-l-P5-MCM6n-Z5-A-unsplash.jpg"
+    },
+
+    "contact":{
+
+        "phone":"+2 345 234 1235",
+
+        "email":"info@foodroyal.cmr",
+
+        "address":"213 bake st, carvercity"
+    },
+
+    "social":[
+
+        {
+            "name":"Facebook",
+
+            "url":""
+        },
+
+        {
+            "name":"Twitter",
+
+            "url":""
+        },
+
+        {
+            "name":"Instagram",
+
+            "url":""
+        },
+
+        {
+            "name":"Youtube",
+
+            "url":""
+        }
+    ],
+
+    "products":[
+
+        {
+            "name":"Fleur a la Choucroutte",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+            "image":"https://i.ibb.co/p6dWJ1Jj/michele-blackwell-r-Ay-CBQTH7ws-unsplash.jpg"
+        },
+
+        {
+            "name":"Fleur a la Choucroutte",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+            "image":"https://i.ibb.co/NdKmBXhz/chad-montano-l-P5-MCM6n-Z5-A-unsplash.jpg"
+        },
+
+        {
+            "name":"Fleur a la Choucroutte",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+            "image":"https://i.ibb.co/MDwG6ztJ/chad-montano-GFCYho-Re48-unsplash.jpg"
+        },
+
+        {
+            "name":"Fleur a la Choucroutte",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+            "image":"https://i.ibb.co/zWGFSk1p/joseph-gonzalez-zc-Ugjyq-Ewe8-unsplash.jpg"
+        }
+    ],
+
+    "testimonials":[
+
+        {
+            "name":"Cave Stone",
+            
+            "title":"Marketing Manager",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+            "image":"https://i.ibb.co/PL5VB07/ivana-cajina-7-Lb-C5-J-jw4-unsplash.jpg"
+        },
+
+        {
+            "name":"Cave Stone",
+           
+            "title":"Marketing Manager",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+            "image":"https://i.ibb.co/MySCwB8f/ian-dooley-d1-UPki-Fd04-A-unsplash.jpg"
+        },
+
+        {
+            "name":"Cave Stone",
+           
+            "title":"Marketing Manager",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+            "image":"https://i.ibb.co/PL5VB07/ivana-cajina-7-Lb-C5-J-jw4-unsplash.jpg"
+        }
+    ],
+
+    "contactSection":{
+
+        "image" : "https://i.ibb.co/MDwG6ztJ/chad-montano-GFCYho-Re48-unsplash.jpg"
+    },
+
+    "aboutHero":{
+
+        "title":"About Us",
+
+        "image":"https://i.ibb.co/p6dWJ1Jj/michele-blackwell-r-Ay-CBQTH7ws-unsplash.jpg",
+
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+
+    "contactHero":{
+
+        "title":"Contact Us",
+
+        "image":"https://i.ibb.co/zWGFSk1p/joseph-gonzalez-zc-Ugjyq-Ewe8-unsplash.jpg",
+
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+
+    "processSection":[
+
+        {
+            "name":"Craft, not copy",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+
+        {
+            "name":"Craft, not copy",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+
+        {
+            "name":"Craft, not copy",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+
+        {
+            "name":"Craft, not copy",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+    ]
 }
+
+
 
 

@@ -1,0 +1,56 @@
+/* -------------------------- home hero -------------------------- */
+
+.home-hero{
+    padding-block:40px;
+}
+
+.home-hero-body{
+    grid-column:2/3;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:30px;
+}
+
+.home-hero-body > span{
+    font-size:4rem;
+    font-weight:bold;
+    color:var(--primary);
+    grid-column:1/-1;
+}
+
+.home-hero-body > p{
+    line-height:1.6;
+    font-size:1.1rem;
+    color:var(--primary-lighter);
+    grid-column:1/2;
+    align-self:end;
+}
+
+.home-hero-image{
+    position:relative;
+    grid-column:2/3;
+    aspect-ratio:3/2;
+}
+
+.home-hero-image > img{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    object-fit:cover;
+}
+
+@media(max-width:700px){
+
+    .home-hero-body > p{
+        grid-column:1/-1;
+        align-self: initial;
+    }
+
+    .home-hero-image{
+        grid-column:1/-1;
+    }
+
+}
+

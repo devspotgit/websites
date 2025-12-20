@@ -4,7 +4,7 @@
     {
         "slug":"fitdaily",
         "category":"fitness",
-        "image":"https://i.ibb.co/rKBtWCZW/test-image.jpg",
+        "image":"https://i.ibb.co/GQw1Hp1s/fitdaily.png",
         "published":true,
         "date":"2025-08-11"
     },
@@ -12,7 +12,7 @@
     {
         "slug":"emilys",
         "category":"fashion",
-        "image":"https://i.ibb.co/rKBtWCZW/test-image.jpg",
+        "image":"https://i.ibb.co/Z6pTmcxx/emilys.png",
         "published":true,
         "date":"2025-05-20"
     },
@@ -20,7 +20,7 @@
     {
         "slug":"maxestate",
         "category":"agency",
-        "image":"https://i.ibb.co/rKBtWCZW/test-image.jpg",
+        "image":"https://i.ibb.co/F4nzsJ1p/maxestate.png",
         "published":true,
         "date":"2025-04-20"
     },
@@ -28,15 +28,15 @@
     {
         "slug":"webtech",
         "category":"agency",
-        "image":"https://i.ibb.co/rKBtWCZW/test-image.jpg",
+        "image":"https://i.ibb.co/kWYQGF0/webtech.png",
         "published":true,
         "date":"2025-03-10"
     },
     
     {
         "slug":"foodroyal",
-        "category":"restaurant",
-        "image":"https://i.ibb.co/rKBtWCZW/test-image.jpg",
+        "category":"food",
+        "image":"https://i.ibb.co/qYf6WXZn/foodroyal.png",
         "published":true,
         "date":"2025-05-20"
     }
