@@ -1,0 +1,31 @@
+/* ---------------------- git section ------------------------ */
+.git-section{
+    padding-block:40px;
+    background-color:var(--primary);
+}
+
+.git-body{
+    grid-column:2/3;
+    display:flex;
+    flex-direction:column;
+    gap:40px;
+}
+
+.git-body > span{
+    font-size:2rem;
+    color:var(--white);
+}
+
+.git-body > p{
+    font-size:1.1rem;
+    line-height:1.6;
+    max-width:600px;
+    color:var(--primary-light);
+}
+
+.git-body > a{
+    padding:15px;
+    background-color:var(--primary-light);
+    color:var(--primary);
+    align-self:start;
+}

@@ -1,0 +1,87 @@
+/* -------------------- footer --------------------- */
+.footer{
+    padding-block:40px;
+    background-color:var(--grey);
+}
+
+.footer-body{
+    grid-column:2/3;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:30px;
+}
+
+/* footer item */
+.footer-body > div{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+/* footer item title */
+.footer-body > div > span{
+    font-size:1.5rem;
+    color:var(--white);
+}
+
+/* footer item body */
+.footer-body > div > :nth-child(2){
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+/* body item */
+.footer-body > div > :nth-child(2):not(form) > *{
+    font-size:1.1rem;
+    color:var(--grey-lighter);
+}
+
+.footer-body > div > :nth-child(2):not(form) > *:hover{
+    color:var(--grey-lighter-plus);
+}
+
+/* newsletter */
+.newsletter-form > input{
+    padding:10px;
+    background-color:var(--grey-light);
+    color:var(--white);
+    border-radius:5px;
+}
+
+.newsletter-form > input::placeholder{
+    color:var(--white);
+}
+
+.newsletter-form > button{
+    padding:10px;
+    background-color:var(--white);
+    border-radius:5px;
+}
+
+
+@media(max-width:700px){
+
+    .footer-body{
+        grid-template-columns:auto;
+    }
+
+    /* footer item title */
+    .footer-body > div > span{
+        text-align:center;
+    }
+
+    /* body item */
+    .footer-body > div > :nth-child(2):not(form) > *{
+       text-align:center;
+    }
+
+    /* footer item */
+    .footer-body > div{
+        align-items:center;
+    }
+}
+
+
+
+

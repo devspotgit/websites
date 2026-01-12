@@ -5,6 +5,8 @@ const templates = require("../templates.js")
 
 const path = require("path")
 
+const fs = require("fs")
+
 const archiver = require("archiver")
 
 const app = express()
@@ -39,17 +41,24 @@ app.get("/download/:sitename", (req, res) => {
 
     archive.pipe(res)
 
-    archive.file(path.join(__dirname, "..", "sites", req.params.sitename, "templates.js"), { name: "templates.js" })
+    const routes = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "sites", req.params.sitename, "path.json"), "utf-8"))
 
-    archive.file(path.join(__dirname, "..", "sites", req.params.sitename, "map.js"), { name: "map.js" })
+    routes.forEach(route => {
+
+        archive.file(path.join(__dirname, "..", "sites", req.params.sitename, ...route), { name: path.join(...route) })
+    })
+
+    // archive.file(path.join(__dirname, "..", "sites", req.params.sitename, "templates.js"), { name: "templates.js" })
+
+    // archive.file(path.join(__dirname, "..", "sites", req.params.sitename, "map.js"), { name: "map.js" })
     
-    archive.file(path.join(__dirname, "..", "sites", req.params.sitename, "data.json"), { name: "data.json" })
+    // archive.file(path.join(__dirname, "..", "sites", req.params.sitename, "data.json"), { name: "data.json" })
     
     archive.file(path.join(__dirname, "..", "generator", "readme.txt"), { name: "readme.txt" })
 
     archive.file(path.join(__dirname, "..", "generator", "generator.js"), { name: "generator.js" })
 
-    archive.directory(path.join(__dirname, "..", "public", "sites", req.params.sitename, "public"), "public")
+    // archive.directory(path.join(__dirname, "..", "public", "sites", req.params.sitename, "public"), "public")
 
     archive.finalize()
 })

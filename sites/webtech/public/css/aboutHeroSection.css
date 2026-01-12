@@ -1,0 +1,55 @@
+/* -------------------- about hero section --------------------- */
+
+.about-hero-section{
+    padding-block:40px;
+}
+
+.about-hero-body{
+    grid-column:2/3;
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+    padding:20px;
+    background-color:var(--grey);
+    border-radius:10px;
+    align-items:center;
+}
+
+.about-hero-image{
+    position:relative;
+    border-radius:10px;
+    overflow:hidden;
+    width:100%;
+    aspect-ratio:3/2;
+}
+
+.about-hero-image > img{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.about-hero-body > span{
+    font-size:3rem;
+    color:var(--grey-lighter-plus);
+    text-align:center;
+}
+
+.about-hero-body > p{
+    font-size:1.1rem;
+    line-height:1.6;
+    color:var(--grey-light);
+    text-align:center;
+    max-width:600px;
+}
+
+.about-hero-body > a{
+    padding:10px;
+    border-radius:5px;
+    color:var(--grey-light);
+    background-color:var(--white);
+}
+

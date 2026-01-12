@@ -1,0 +1,70 @@
+/* ---------------------- contact section ------------------------ */
+.contact-section{
+    padding-block:40px;
+}
+
+.contact-body{
+    grid-column:2/3;
+    display:flex;
+    flex-direction:column;
+    gap:40px;
+    align-items:center;
+}
+
+.contact-body > span{
+    font-size:2.5rem;
+    color:var(--grey-light);
+    text-align:center;
+    padding:20px;
+    border-bottom:1px solid var(--primary-light);
+}
+
+.contact-body > p{
+    line-height:1.6;
+    font-size:1.1rem;
+    color:var(--primary-light);
+    text-align:center;
+}
+
+.contact-form{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    background-color:var(--primary-lighter-plus);
+    padding:40px;
+    gap:20px;
+}
+
+.contact-form > *:not(:first-child, :nth-child(2)){
+    grid-column:1/-1;
+}
+
+.contact-form > button{
+    justify-self:start;
+    padding:15px;
+    background-color:var(--primary);
+    color:var(--white);
+}
+
+.contact-form > textarea{
+    height:150px;
+}
+
+.contact-form > input, .contact-form > textarea{
+    color:var(--grey-lighter);
+    padding:15px;
+    background-color:var(--grey);
+}
+
+.contact-form > input::placeholder, .contact-form > textarea::placeholder{
+    color:var(--grey-lighter);
+}
+
+@media(max-width:700px){
+
+    .contact-form > *{
+        grid-column:1/-1;
+    }
+}
+
+
+

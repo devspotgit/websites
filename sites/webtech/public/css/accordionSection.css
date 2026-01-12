@@ -1,0 +1,81 @@
+/* -------------------- accordion section --------------------- */
+.accordion-section{
+    padding-block:40px;
+}
+
+.accordion-section input{
+    display:none;
+}
+
+.accordion-body{
+    grid-column:2/3;
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+}
+
+.accordion-body > span{
+    font-size:3rem;
+    color:var(--grey-light);
+}
+
+.accordion-list{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.accordion-item{
+    background-color:var(--grey);
+    display:flex;
+    flex-direction:column;
+    border-radius:10px;
+}
+
+.accordion-item-header{
+    display:flex;
+    justify-content:space-between;
+    padding:20px;
+    align-items:center;
+    cursor:pointer;
+}
+
+.accordion-item-header > span:first-child{
+    font-size:1.2rem;
+    color:var(--grey-lighter-plus);
+}
+
+.accordion-item-header > span:not(:first-child){
+    color:var(--grey-light);
+    font-size:1.1rem;
+}
+
+.accordion-item-header > span:last-child{
+    display:none;
+}
+
+.accordion-item-body{
+    max-height:0;
+    transition:max-height 0.5s;
+    overflow:hidden;
+}
+
+.accordion-item-body > p{
+    padding:20px;
+    line-height:1.6;
+    color:var(--grey-light);
+}
+
+
+.accordion-section input:checked + .accordion-item .accordion-item-header > span:last-child{
+    display:initial;
+}
+
+.accordion-section input:checked + .accordion-item .accordion-item-header > span:nth-child(2){
+    display:none;
+}
+
+.accordion-section input:checked + .accordion-item .accordion-item-body{
+    max-height:400px;
+}
+

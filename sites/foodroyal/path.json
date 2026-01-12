@@ -1,0 +1,27 @@
+
+
+[
+    ["map.js"],
+    ["data.json"],
+    ["templates.js"],
+
+    ["public", "css" , "about.css"],
+    ["public", "css" , "contact.css"],
+    ["public", "css" , "contactSection.css"],
+    ["public", "css" , "footer.css"],
+    ["public", "css" , "header.css"],
+    ["public", "css" , "home.css"],
+    ["public", "css" , "homeHero.css"],
+    ["public", "css" , "newsletter.css"],
+    ["public", "css" , "pageHero.css"],
+    ["public", "css" , "process.css"],
+    ["public", "css" , "product.css"],
+    ["public", "css" , "testimonial.css"],
+    ["public", "css" , "util.css"],
+
+    ["public", "js", "about.js"],
+    ["public", "js", "contact.js"],
+    ["public", "js", "home.js"],
+    ["public", "js", "lib.js"]
+]
+

@@ -1,0 +1,32 @@
+
+
+[
+    ["data.json"],
+    ["map.js"],
+    ["templates.json"],
+
+    ["public", "css", "about.css"],
+    ["public", "css", "aboutSection.css"],
+    ["public", "css", "callToAction.css"],
+    ["public", "css", "classes.css"],
+    ["public", "css", "classesSection.css"],
+    ["public", "css", "contact.css"],
+    ["public", "css", "contactSection.css"],
+    ["public", "css", "footer.css"],
+    ["public", "css", "header.css"],
+    ["public", "css", "home.css"],
+    ["public", "css", "homeHero.css"],
+    ["public", "css", "pageHero.css"],
+    ["public", "css", "pricing.css"],
+    ["public", "css", "services.css"],
+    ["public", "css", "testimonials.css"],
+    ["public", "css", "trainers.css"],
+    ["public", "css", "util.css"],
+
+    ["public", "js", "about.js"],
+    ["public", "js", "classes.js"],
+    ["public", "js", "contact.js"],
+    ["public", "js", "home.js"],
+    ["public", "js", "lib.js"]
+]
+

@@ -1,0 +1,61 @@
+/* -------------------- work section --------------------- */
+.work-section{
+    padding-block:40px;
+}
+
+.work-body{
+    grid-column:2/3;
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+}
+
+.work-body > span{
+    font-size:3rem;
+    color:var(--grey);
+}
+
+.work-list{
+    display:flex;
+    flex-direction:column;
+}
+
+.work-item{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    padding:20px;
+    border-radius:10px;
+    background-color:var(--grey);
+    position:sticky;
+    top:100px;
+}
+
+.work-item > span{
+    font-size:1.5rem;
+    color:var(--grey-lighter-plus);
+    line-height:1.6;
+}
+
+.work-item > p{
+    font-size:1.1rem;
+    line-height:1.6;
+    color:var(--grey-light);
+}
+
+.work-image{
+    position:relative;
+    aspect-ratio:3/2;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.work-image > img{
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    object-fit:cover;
+    position:absolute;
+}
+

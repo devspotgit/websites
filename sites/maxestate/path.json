@@ -1,0 +1,30 @@
+
+
+[
+    ["map.js"],
+    ["templates.js"],
+    ["data.json"],
+
+    ["public", "css", "about.css"],
+    ["public", "css", "aboutSection.css"],
+    ["public", "css", "agentSection.css"],
+    ["public", "css", "categorySection.css"],
+    ["public", "css", "contact.css"],
+    ["public", "css", "contactSection.css"],
+    ["public", "css", "ctaSection.css"],
+    ["public", "css", "footer.css"],
+    ["public", "css", "gitSection.css"],
+    ["public", "css", "header.css"],
+    ["public", "css", "home.css"],
+    ["public", "css", "homeHeroSection.css"],
+    ["public", "css", "pageHeroSection.css"],
+    ["public", "css", "propertySection.css"],
+    ["public", "css", "testimonialSection.css"],
+    ["public", "css", "util.css"],
+
+    ["public", "js", "about.js"],
+    ["public", "js", "contact.js"],
+    ["public", "js", "home.js"],
+    ["public", "js", "lib.js"]
+]
+

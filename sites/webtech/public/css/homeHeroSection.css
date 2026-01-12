@@ -1,0 +1,77 @@
+/* -------------------- home hero section --------------------- */
+.home-hero-section{
+    height:400px;
+    margin-block:40px;
+}
+
+.home-hero-body{
+    grid-column:2/3;
+    display:flex;
+    flex-direction:column-reverse;
+    padding:20px;
+    background-color:var(--grey);
+    border-radius:10px;
+}
+
+.home-hero-content{
+    display:grid;
+    grid-template-columns:auto 300px;
+    grid-template-rows:max-content max-content;
+    gap:20px;
+}
+
+.home-hero-content > span{
+    font-size:2rem;
+    color:var(--white);
+    line-height:1.6;
+    grid-column:1/2;
+    grid-row:1/2;
+}
+
+.home-hero-content > p{
+    font-size:1.1rem;
+    line-height:1.6;
+    color:var(--grey-light);
+    grid-column:1/2;
+    grid-row:2/3;
+    align-self:end;
+}
+
+.home-hero-image{
+    position:relative;
+    grid-column:2/3;
+    grid-row:1/-1;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.home-hero-image > img{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+@media(max-width:800px){
+
+    .home-hero-section{
+        height:initial;
+    }
+
+    .home-hero-content{
+        display:contents;
+    }
+
+    .home-hero-image{
+        aspect-ratio:3/2;
+    }
+
+    .home-hero-body{
+        flex-direction:column;
+        gap:20px;
+    }
+
+}
+

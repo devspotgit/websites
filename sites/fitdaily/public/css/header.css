@@ -1,0 +1,130 @@
+/* ------------------------ header ------------------------ */
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:80px;
+    display:grid;
+    grid-template-columns:minmax(40px, auto) minmax(320px, 900px) minmax(40px, auto);
+    z-index:2;
+    transition:background-color 0.5s;
+}
+
+.header[scroll]{
+    background-color:var(--primary-lighter);
+}
+
+/* full screen overlay */
+.header > div:first-child{
+    display:none;
+}
+
+.header-content{
+    grid-column:2/3;
+    display:flex;
+    gap:40px;
+    align-items:center;
+}
+
+/* site name */
+.header-content > a{
+    font-size:2rem;
+    color:var(--primary);
+}
+
+/* open menu button */
+.header-content > button{
+    display:none;
+}
+
+.menu-wrapper{
+    display:contents;
+}
+
+/* close menu button */
+.menu-wrapper > button{
+    display:none;
+}
+
+.menu{
+    display:flex;
+    gap:20px;
+}
+
+/* menu item */
+.menu > a{
+    color:var(--white);
+    font-size:1.1rem;
+}
+
+.menu > a:hover{
+    color:var(--primary);
+}
+
+.menu > a[selected]{
+    color:var(--primary);
+}
+
+@media(max-width:700px){
+
+    .header-content{
+        justify-content:space-between;
+    }
+
+    .header > div:first-child{
+        position:fixed;
+        width:100%;
+        height:100vh;
+        background-color:rgba(0,0,0,0.7);
+        top:0;
+        left:0;
+        z-index:1;
+    }
+
+    .header > div:first-child[open]{
+        display:initial;
+    }
+
+    .menu-wrapper{
+        display:flex;
+        flex-direction:column;
+        gap:10px;
+        position:fixed;
+        width:300px;
+        top:0;
+        left:-300px;
+        background-color:var(--primary-lighter);
+        height:100vh;
+        padding:15px;
+        box-sizing:border-box;
+        z-index:2;
+        transition:left 0.5s;
+    }
+
+    .menu-wrapper[open]{
+        left:0;
+    }
+
+    .menu{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    /* close menu button */
+    .menu-wrapper > button{
+        display:initial;
+        align-self:end;
+        color:var(--white);
+        font-size:1.5rem;
+    }
+
+    /* open menu button */
+    .header-content > button{
+        display:initial;
+        color:var(--white);
+        font-size:1.5rem;
+    }
+}
+
+

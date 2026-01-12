@@ -1,0 +1,134 @@
+
+
+/* ------------------------ colors ------------------------ */
+:root{
+    --primary:hsl(39, 100%, 20%);
+    --primary-light:hsl(39, 100%, 40%);
+    --primary-lighter:hsl(39, 100%, 60%);
+    --primary-lighter-plus:hsl(39, 100%, 80%);
+    --black:hsl(0, 0%, 0%);
+    --grey:hsl(0, 0%, 20%);
+    --grey-light:hsl(0, 0%, 40%);
+    --grey-lighter:hsl(0, 0%, 60%);
+    --grey-lighter-plus:hsl(0, 0%, 80%);
+    --white:hsl(0, 0%, 100%);
+}
+
+/* ------------------------ global style ------------------------ */
+*{
+    padding:0;
+    margin:0;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+img{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+input, textarea, button{
+    border-width:0;
+    font-family:inherit;
+    font-size:inherit;
+}
+
+button{
+    background-color:transparent;
+    cursor:pointer;
+}
+
+.root{
+    display:grid;
+    min-height:100vh;
+    min-width:400px;
+    grid-template-columns:minmax(40px, auto) minmax(320px, 900px) minmax(40px, auto);
+    grid-template-rows:max-content auto max-content;
+}
+
+.root > *{
+    grid-column:1/-1;
+    display:grid;
+    grid-template-columns:subgrid;
+}
+
+.main{
+    grid-auto-rows:max-content;
+}
+
+.main > *{
+    grid-column:1/-1;
+    display:grid;
+    grid-template-columns:subgrid;
+}
+
+/* ------------------------ section title ------------------------ */
+.section-title{
+    align-self:center;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.section-title:hover .section-title-bottom > span{
+    width:100%;
+}
+
+.section-title:hover .section-title-top > span{
+    width:100%;
+}
+
+.section-title > span{
+    font-size:3rem;
+    color:var(--primary);
+    font-weight:bold;
+}
+
+.section-title-top, .section-title-bottom{
+    height:2px;
+    background-color:var(--primary-lighter-plus);
+    display:flex;
+}
+
+.section-title-bottom{
+    flex-direction:row-reverse;
+}
+
+.section-title-top{
+    flex-direction:row;
+}
+
+.section-title-top > span, .section-title-bottom > span{
+    height:100%;
+    background-color:var(--primary);
+    transition:width 2s;
+    width:0;
+}
+
+/* ------------------------ hero title ------------------------ */
+.hero-title{
+    display:flex;
+    gap:20px;
+    align-items:center;
+}
+
+.hero-title > span:first-child, .hero-title > span:last-child{
+    height:2px;
+    background-color:var(--primary-light);
+    width:50px;
+}
+
+.hero-title > span:nth-child(2){
+    color:var(--white);
+    font-size:2rem;
+}
+
+
+

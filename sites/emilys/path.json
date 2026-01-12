@@ -1,0 +1,9 @@
+
+[
+    [ "public", "css", "main.css" ],
+    [ "public", "js", "main.js" ],
+    [ "data.json" ],
+    [ "map.js"],
+    [ "templates.js" ]
+]
+
