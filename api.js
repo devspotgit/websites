@@ -108,5 +108,15 @@ function sortPost(posts){
 }
 
 
-module.exports = { getName, getDate, sortPost, getCategoryList, getCategoryPost }
+function getLastPosts(count){
+
+    const p = [ ...posts]
+
+    sortPost(p)
+
+    return p.slice(0, count) 
+}
+
+
+module.exports = { getLastPosts, getName, getDate, sortPost, getCategoryList, getCategoryPost }
 
