@@ -114,7 +114,21 @@ function getLastPosts(count){
 
     sortPost(p)
 
-    return p.slice(0, count) 
+    let c = 0
+
+    const lastPosts = []
+
+    p.forEach(item => {
+
+        if(c < count && item.published){
+
+            lastPosts.push(item)
+
+            c++
+        }
+    })
+
+    return lastPosts
 }
 
 

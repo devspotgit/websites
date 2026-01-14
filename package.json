@@ -19,6 +19,7 @@
   "homepage": "https://github.com/devspotgit/websites#readme",
   "dependencies": {
     "archiver": "^7.0.1",
+    "cors": "^2.8.5",
     "express": "^5.2.1"
   }
 }

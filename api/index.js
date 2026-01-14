@@ -5,6 +5,8 @@ const templates = require("../templates.js")
 
 const path = require("path")
 
+const cors = require("cors")
+
 const fs = require("fs")
 
 const archiver = require("archiver")
@@ -14,9 +16,11 @@ const app = express()
 const { getLastPosts } = require("../api.js")
 
 
+app.use(cors())
+
 app.use(express.json())
 
-app.get("/", (req, res) => {
+app.get("/", (req, res) => {    
 
     res.redirect("/categories/all")
 })
