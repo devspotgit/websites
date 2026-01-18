@@ -17,6 +17,11 @@
     margin:0;
 }
 
+html, body{
+    width:100%;
+    height:100%;
+}
+
 button{
     background-color:transparent;
     border-width:0;
@@ -31,9 +36,9 @@ a{
 
 /* ---------------- root --------------- */
 .root{
-    min-height:100vh;
+    min-height:100%;
     display:grid;
-    grid-template-columns:auto 250px minmax(400px, 700px) auto;
+    grid-template-columns:auto 250px minmax(300px, 700px) auto;
     background-color:var(--grey-lighter-plus);
 }
 
@@ -273,7 +278,7 @@ a{
     /* ---------------- root --------------- */
     .root{
         grid-template-columns:auto;
-        min-width:400px;
+        min-width:300px;
     }
 
     /* ---------------- category list --------------- */
