@@ -3,10 +3,18 @@
 [
     {
         "slug":"fitdaily",
-        "category":"fitness",
+        "category":"fitness-and-health",
         "image":"https://i.ibb.co/GQw1Hp1s/fitdaily.png",
         "published":true,
         "date":"2025-08-11"
+    },
+
+    {
+        "slug":"doccare",
+        "category":"fitness-and-health",
+        "image":"",
+        "published":true,
+        "date":"2024-08-11"
     },
 
     {

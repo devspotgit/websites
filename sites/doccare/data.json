@@ -1,0 +1,227 @@
+
+
+{
+
+    "brand":{
+
+        "name":"DocCare",
+
+        "tagline":"Health Care for Home Family",
+
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+        "image":"https://i.ibb.co/zT7s0GmL/nappy-i8d-Hi584l-Fs-unsplash.jpg"
+    },
+
+    "contact":{
+
+        "address":"23 ruban st, corncity, 1235",
+
+        "phone":"345-959-3553",
+
+        "email":"info@doccare.cmr"
+    },
+
+    "services":[
+
+        {
+            "title":"Hospitality",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+
+        {
+            "title":"Emergency Care",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+
+        {
+            "title":"Chamber Service",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+    ],
+
+    "about":{
+
+        "image1":"https://i.ibb.co/zT7s0GmL/nappy-i8d-Hi584l-Fs-unsplash.jpg",
+
+        "image2":"https://i.ibb.co/wrCy68SP/national-cancer-institute-82-BHTkmk-Df-U-unsplash.jpg",
+
+        "title":"Best Care For Your Good Health",
+
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+        "details": [
+
+            "Apartments frequently or motionless.",
+            
+            "Duis aute irure dolor in reprehenderit in voluptate.",
+            
+            "Voluptatem quia voluptas sit aspernatur."
+        ]
+    },
+
+    "departments":{
+
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+        "details":[
+
+            {
+                "image":"https://i.ibb.co/zT7s0GmL/nappy-i8d-Hi584l-Fs-unsplash.jpg",
+
+                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                
+                "title":"Eye Care"
+            },
+
+            {
+                "image":"https://i.ibb.co/wrCy68SP/national-cancer-institute-82-BHTkmk-Df-U-unsplash.jpg",
+
+                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                
+                "title":"Physical Therapy"
+            },
+
+            {
+                "image":"https://i.ibb.co/tMcBGpbv/alexandr-podvalny-t-E7-jv-K-YU-unsplash.jpg",
+
+                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                
+                "title":"Dental Care"
+            },
+
+            {
+                "image":"https://i.ibb.co/zTJT7HXc/jeshoots-com-l0j0-DHVWc-IE-unsplash.jpg",
+
+                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                
+                "title":"Diagnostic Test"
+            },
+
+            {
+                "image":"https://i.ibb.co/9j8dGHW/cdc-d3fe9q-JDqa-I-unsplash.jpg",
+
+                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                
+                "title":"Skin Surgery"
+            }
+        ]
+    },
+
+    "testimonials":[
+        {
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+            "name":"Peter Jackson",
+
+            "image":"https://i.ibb.co/MySCwB8f/ian-dooley-d1-UPki-Fd04-A-unsplash.jpg"
+        },
+
+        {
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+            "name":"Peter Jackson",
+
+            "image":"https://i.ibb.co/PL5VB07/ivana-cajina-7-Lb-C5-J-jw4-unsplash.jpg"
+        },
+
+        {
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+            "name":"Peter Jackson",
+
+            "image":"https://i.ibb.co/20z6bDjb/test-image.jpg"
+        }
+    ],
+
+    "assets":[
+
+        {
+            "label":"Excellent Services",
+
+            "image":"https://i.ibb.co/tMcBGpbv/alexandr-podvalny-t-E7-jv-K-YU-unsplash.jpg",
+
+            "title":"Leading edge care for Your family",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+
+        {
+            "label":"Qualified Doctors",
+
+            "image":"https://i.ibb.co/zT7s0GmL/nappy-i8d-Hi584l-Fs-unsplash.jpg",
+
+            "title":"Leading edge care for Your family",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+
+        {
+            "label":"Emergency Departments",
+
+            "image":"https://i.ibb.co/wrCy68SP/national-cancer-institute-82-BHTkmk-Df-U-unsplash.jpg",
+
+            "title":"Leading edge care for Your family",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+    ],
+
+    "team":[
+
+        {
+            "image":"https://i.ibb.co/PL5VB07/ivana-cajina-7-Lb-C5-J-jw4-unsplash.jpg",
+
+            "name":"Ember Rose",
+
+            "title":"Neurologist"
+        },
+
+        {
+            "image":"https://i.ibb.co/MySCwB8f/ian-dooley-d1-UPki-Fd04-A-unsplash.jpg",
+
+            "name":"Ember Rose",
+
+            "title":"Neurologist"
+        },
+
+        {
+            "image":"https://i.ibb.co/PL5VB07/ivana-cajina-7-Lb-C5-J-jw4-unsplash.jpg",
+
+            "name":"Ember Rose",
+
+            "title":"Neurologist"
+        },
+
+        {
+            "image":"https://i.ibb.co/20z6bDjb/test-image.jpg",
+
+            "name":"Ember Rose",
+
+            "title":"Neurologist"
+        }
+    ],
+
+    "action":[
+
+        {
+            "image":"https://i.ibb.co/tMcBGpbv/alexandr-podvalny-t-E7-jv-K-YU-unsplash.jpg",
+
+            "title":"For Any Emergency Contact",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+
+        {
+            "image":"https://i.ibb.co/wrCy68SP/national-cancer-institute-82-BHTkmk-Df-U-unsplash.jpg",
+
+            "title":"For Any Emergency Contact",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+    ]
+}
+
