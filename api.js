@@ -5,7 +5,7 @@ const fs = require("fs")
 
 const posts = JSON.parse(fs.readFileSync(path.join(__dirname, "posts.json"), "utf-8"))
 
-const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "December"]
+const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 
 
 function getCategoryList(){

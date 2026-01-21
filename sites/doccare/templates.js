@@ -83,16 +83,21 @@ function departments(){
 function testimonials(){
 
     return `
-        <div class="testimonials">
-            ${
-                data.testimonials.map(item => `
-                    <div class="testimonial">
-                        <img src="${item.image}">
-                        <p>${item.description}</p>
-                        <span>${item.name}</span>
-                    </div>
-                `).join(" ")
-            }
+        <div class="testimonials-wrap">
+            <div class="testimonials">
+                ${
+                    data.testimonials.map(item => `
+                        <div class="testimonial">
+                            <img src="${item.image}">
+                            <div class="testimonial-overlay"></div>
+                            <div class="testimonial-content">
+                                <p>${item.description}</p>
+                                <span>${item.name}</span>
+                            </div>
+                        </div>
+                    `).join(" ")
+                }
+            </div>
         </div>
     `
 }
@@ -103,6 +108,10 @@ function team(){
         <div class="team-wrap">
             <div class="team">
                 <span>Expert Doctors</span>
+                <div class="team-control">
+                    <button><i class="fa-solid fa-arrow-left"></i></button>
+                    <button><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
                 <div class="team-list">
                     ${
                         data.team.map(item => `
@@ -275,7 +284,9 @@ function home(){
                     ${services()}
                     ${about()}
                     ${departments()}
+                    ${testimonials()}
                     ${assets()}
+                    ${team()}
                     ${action()}
                     ${footer()}
                 </div>
