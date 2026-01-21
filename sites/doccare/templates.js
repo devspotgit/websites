@@ -126,28 +126,30 @@ function team(){
 function assets(){
 
     return `
-        <div class="assets">
-            <div class="assets-top">
-                ${
-                    data.assets.map(item => `
-                        <button>${item.label}</button>
-                    `).join(" ")
-                }
-            </div>
-            <div class="assets-list">
-                ${
-                    data.assets.map(item => `
-                        <div class="asset">
-                            <div class="asset-image-wrap">
-                                <img src="${item.image}">
-                            </div>
-                            <div class="asset-content">
-                                <span>${item.title}</span>
-                                <p>${item.descriptio}</p>
-                            </div>
-                        </div>    
-                    `) 
-                }
+        <div class="assets-wrap">
+            <div class="assets">
+                <div class="assets-top">
+                    ${
+                        data.assets.map(item => `
+                            <button>${item.label}</button>
+                        `).join(" ")
+                    }
+                </div>
+                <div class="assets-list">
+                    ${
+                        data.assets.map(item => `
+                            <div class="asset">
+                                <div class="asset-content">
+                                    <span>${item.title}</span>
+                                    <p>${item.description}</p>
+                                </div>
+                                <div class="asset-image-wrap">
+                                    <img src="${item.image}">
+                                </div>
+                            </div>    
+                        `).join(" ")
+                    }
+                </div>
             </div>
         </div>
     `
@@ -156,19 +158,22 @@ function assets(){
 function action(){
 
     return `
-        <div class="action">
-            ${
-                data.action.map(item => `
-                    <div class="action-item">
-                        <img src="${item.image}">
-                        <div class="action-item-content">
-                            <span>${item.title}</span>
-                            <p>${item.description}</p>
-                            <a href="">Learn More</a>
+        <div class="action-wrap">
+            <div class="action">
+                ${
+                    data.action.map(item => `
+                        <div class="action-item">
+                            <img src="${item.image}">
+                            <div class="action-item-overlay"></div>
+                            <div class="action-item-content">
+                                <span>${item.title}</span>
+                                <p>${item.description}</p>
+                                <a href="">Learn More</a>
+                            </div>
                         </div>
-                    </div>
-                `).join(" ")
-            }
+                    `).join(" ")
+                }
+            </div>
         </div>
     `
 }
@@ -223,7 +228,27 @@ function footer(){
     return `
         <div class="footer-wrap">
             <div class="footer">
-            
+                <div class="footer-section">
+                    <span>DocCare</span>
+                    <p>Firmament morning sixth subdue darkness creeping gathered divide.</p>
+                </div>
+                <div class="footer-section">
+                    <span>Useful Links</span>
+                    <div>
+                        <a href="">Home</a>
+                        <a href="">About</a>
+                        <a href="">Blog</a>
+                        <a href="">Contact</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <span>Contact</span>
+                    <div>
+                        <a href="tel:${data.contact.phone}">${data.contact.phone}</a>
+                        <a href="mailto:${data.contact.email}">${data.contact.email}</a>
+                        <span>${data.contact.address}</span>
+                    </div>
+                </div>
             </div>
         </div>
     `
@@ -245,7 +270,14 @@ function home(){
             </head>
             <body>
                 <div class="root">
-                    
+                    ${header()}
+                    ${hero()}
+                    ${services()}
+                    ${about()}
+                    ${departments()}
+                    ${assets()}
+                    ${action()}
+                    ${footer()}
                 </div>
                 <script type="module" src="public/js/main.js"></script>
             </body>
