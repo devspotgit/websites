@@ -10,6 +10,14 @@
     },
 
     {
+        "slug":"yourhr",
+        "category":"agency",
+        "image":"",
+        "published":false,
+        "date":"2025-08-11"
+    },
+
+    {
         "slug":"doccare",
         "category":"fitness-and-health",
         "image":"https://i.ibb.co/RG39q8xF/doccare.png",

@@ -1,0 +1,226 @@
+
+
+{
+    "brand":{
+
+        "name":"YourHR",
+
+        "tagline":"We Are Your Partners in Human Resource",
+
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+        "image":"https://i.ibb.co/CsttvMyn/vitaly-gariev-aowe-P90-Xw-M-unsplash.jpg"
+    },
+
+    "contact":{
+
+        "address":"345 constant st, borncity, 1235",
+
+        "phone":"345-959-3553",
+
+        "email":"info@yourhr.cmr"
+    },
+
+    "services":[
+
+        {
+            "title":"Regular Update",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+
+        {
+            "title":"Infinite Posibilities",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+
+        {
+            "title":"HR Management",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+
+        {
+            "title":"Good Security",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+    ],
+
+    "about":{
+
+        "image":"https://i.ibb.co/4ZRrBb3c/becomes-co-s-FHDDSVp1s-unsplash.jpg",
+
+        "details": [
+
+            {
+                "title":"Apartments frequently",
+
+                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            },
+
+            {
+                "title":"Apartments frequently",
+
+                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            },
+
+            {
+                "title":"Apartments frequently",
+
+                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            },
+
+            {
+                "title":"Apartments frequently",
+
+                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            }
+        ]
+    },
+
+    "blog":{
+
+        "title":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit reiciendis dolore, facilis ipsam officiis quasi?",
+
+        "details":[
+
+            {
+                "title":"Apartments frequently",
+
+                "date":"July 11, 2020",
+
+                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            },
+
+            {
+                "title":"Apartments frequently",
+
+                "date":"July 11, 2020",
+
+                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            },
+
+            {
+                "title":"Apartments frequently",
+
+                "date":"July 11, 2020",
+
+                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            },
+
+            {
+                "title":"Apartments frequently",
+
+                "date":"July 11, 2020",
+
+                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            }
+        ]
+    },
+
+    "testimonials":[
+        
+        {
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+            "name":"Peter Jackson",
+
+            "image":"https://i.ibb.co/MySCwB8f/ian-dooley-d1-UPki-Fd04-A-unsplash.jpg"
+        },
+
+        {
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+            "name":"Peter Jackson",
+
+            "image":"https://i.ibb.co/PL5VB07/ivana-cajina-7-Lb-C5-J-jw4-unsplash.jpg"
+        },
+
+        {
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+            "name":"Peter Jackson",
+
+            "image":"https://i.ibb.co/20z6bDjb/test-image.jpg"
+        },
+
+        {
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
+            "name":"Peter Jackson",
+
+            "image":"https://i.ibb.co/PL5VB07/ivana-cajina-7-Lb-C5-J-jw4-unsplash.jpg"
+        }
+    ],
+
+    "assets":[
+
+        {
+            "data":"99399",
+
+            "title":"Number of Clients"
+        },
+
+        {
+            "data":"199",
+
+            "title":"Number of Personnel"
+        },
+
+        {
+            "data":"24",
+
+            "title":"Years Of Experience"
+        }
+       
+    ],
+
+    "team":[
+
+        {
+            "image":"https://i.ibb.co/PL5VB07/ivana-cajina-7-Lb-C5-J-jw4-unsplash.jpg",
+
+            "name":"Ember Rose",
+
+            "title":"CEO AND CO-FOUNDER",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+
+        {
+            "image":"https://i.ibb.co/MySCwB8f/ian-dooley-d1-UPki-Fd04-A-unsplash.jpg",
+
+            "name":"Ember Rose",
+
+            "title":"CEO AND CO-FOUNDER",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+
+        {
+            "image":"https://i.ibb.co/PL5VB07/ivana-cajina-7-Lb-C5-J-jw4-unsplash.jpg",
+
+            "name":"Ember Rose",
+
+            "title":"CEO AND CO-FOUNDER",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+
+        {
+            "image":"https://i.ibb.co/20z6bDjb/test-image.jpg",
+
+            "name":"Ember Rose",
+
+            "title":"CEO AND CO-FOUNDER",
+
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+    ]
+}
+
+
+
+
