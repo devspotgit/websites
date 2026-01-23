@@ -158,19 +158,19 @@
     "assets":[
 
         {
-            "data":"99399",
+            "value":"200",
 
             "title":"Number of Clients"
         },
 
         {
-            "data":"199",
+            "value":"140",
 
             "title":"Number of Personnel"
         },
 
         {
-            "data":"24",
+            "value":"24",
 
             "title":"Years Of Experience"
         }

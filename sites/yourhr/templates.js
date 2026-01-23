@@ -12,42 +12,122 @@ const data = JSON.parse(fs.readFileSync(path.join(__dirname, "data.json"), "utf-
 function header(){
 
     return `
-        
+        <div class="header-wrap">
+            <div class="header">
+                <div class="header-top">
+                    <a href="">${data.brand.name}</a>
+                    <button><i class="fa-solid fa-bars"></i></button>
+                    <button><i class="fa-solid fa-x"></i></button>
+                </div>
+                <div class="header-body">
+                    <div class="nav">
+                        <a href="">Home</a>
+                        <a href="">About</a>
+                        <a href="">Services</a>
+                        <a href="">Blog</a>
+                        <a href="">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     `
 }
 
 function hero(){
 
     return `
-    
+        <div class="hero">
+            <img src="${data.brand.image}">
+            <div class="hero-overlay"></div>
+            <div class="hero-content-wrap">
+                <div class="hero-content">
+                    <span>${data.brand.tagline}</span>
+                    <p>${data.brand.description}</p>
+                    <a href="">Learn More</a>
+                </div>
+            </div>
+        </div>
     `
 }
 
 function blog(){
 
     return `
-    
+        <div class=""></div>
     `
 }
 
 function team(){
 
     return `
-    
+        <div class="team-wrap">
+            <div class="team">
+                <span>Leadership</span>
+                <div class="team-list">
+                    ${
+                        data.team.map(item => `
+                            <div class="team-member">
+                                <img src="${item.image}">
+                                <div class="team-member-info">
+                                    <span>${item.name}</span>
+                                    <span>${item.title}</span>
+                                    <p>${item.description}</p>
+                                </div>
+                            </div>
+                        `).join(" ")
+                    }
+                </div>
+            </div>
+        </div>
     `
 }
 
 function assets(){
 
     return `
-    
+        <div class="assets-wrap">
+            <div class="assets">
+                ${
+                    data.assets.map(item => `
+                        <div class="asset">
+                            <span>${item.value}</span>
+                            <span>${item.title}</span>
+                        </div>
+                    `).join(" ")
+                }
+            </div>
+        </div>
     `
 }
 
 function testimonials(){
 
     return `
-    
+        <div class="testimonials-wrap">
+            <div class="testimonials">
+                <span>Happy Customers</span>
+                <div class="testimonial-list">
+                    ${
+                        data.testimonials.map(item => `
+                            <div class="testimonial-item">
+                                <div class="testimonial-image-wrap">
+                                    <img src="${item.image}">
+                                </div>
+                                <p>${item.description}</p>
+                                <span>${item.name}</span>
+                            </div>
+                        `).join(" ")
+                    }
+                </div>
+                <div class="testimonial-indicator">
+                    ${
+                        data.testimonials.map( () => `
+                            <button></button>
+                        `)
+                    }
+                </div>
+            </div>
+        </div>
     `
 }
 
@@ -61,14 +141,56 @@ function footer(){
 function services(){
 
     return `
-    
+        <div class="services-wrap">
+            <div class="services">
+                <span>Our Services</span>
+                <div class="service-list">
+                    ${
+                        data.services.map(item => `
+                            <div class="service-item">
+                                <span>${item.title}</span>
+                                <p>${item.description}</p>
+                            </div>
+                        `).join(" ")
+                    }
+                </div>
+            </div>
+        </div>
     `
 }
 
 function about(){
 
     return `
-    
+        <div class="about-wrap">
+            <div class="about">
+                <div class="about-top">
+                    <span class="section-title">Our Agency</span>
+                    <div class="about-top-image-wrap">
+                        <img src="${data.about.image}">
+                    </div>
+                </div>
+                <div class="about-body">
+                    <span class="section-title">Why Us?</span>
+                    <div class="about-body-content">
+                        ${
+                            data.about.details.map(item => `
+                                <div class="about-body-item">
+                                    <div class="about-item-title">
+                                        <span>${item.title}</span>
+                                        <span>+</span>
+                                        <span>-</span>
+                                    </div>
+                                    <div class="about-item-desc">
+                                        <p>${item.description}</p>
+                                    </div>
+                                </div>
+                            `).join(" ")
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
     `
 }
 
@@ -87,7 +209,10 @@ function home(){
             </head>
             <body>
                 <div class="root">
-                   
+                   ${header()}
+                   ${hero()}
+                   ${about()}
+                   ${assets()}
                 </div>
                 <script type="module" src="public/js/main.js"></script>
             </body>
