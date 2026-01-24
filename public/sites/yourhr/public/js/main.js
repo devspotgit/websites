@@ -114,10 +114,60 @@ function assetsControl(){
     inter.observe(assetsWrap)
 }
 
+function testimonialControl(){
+
+    const items = document.querySelectorAll(".testimonial-item")
+
+    const controls = document.querySelectorAll(".testimonial-indicator button")
+
+    let currentIndex = 0
+
+    items[currentIndex].setAttribute("active", "")
+
+    controls[currentIndex].setAttribute("active", "")
+
+    controls.forEach((control, index) => {
+
+        control.addEventListener("click", () => {
+
+            if(index != currentIndex){
+
+                controls[currentIndex].removeAttribute("active")
+
+                items[currentIndex].removeAttribute("active")
+
+                currentIndex = index
+
+                controls[currentIndex].setAttribute("active", "")
+
+                items[currentIndex].setAttribute("active", "")
+            }
+        })
+    })
+
+    setInterval(() => {
+
+        controls[currentIndex].removeAttribute("active")
+
+        items[currentIndex].removeAttribute("active")
+
+        if(currentIndex == items.length - 1) currentIndex = 0
+
+        else currentIndex ++
+
+        controls[currentIndex].setAttribute("active", "")
+
+        items[currentIndex].setAttribute("active", "")
+
+    }, 3000)
+}
+
 
 headerControl()
 
 aboutControl()
 
 assetsControl()
+
+testimonialControl()
 

@@ -62,16 +62,16 @@ function team(){
     return `
         <div class="team-wrap">
             <div class="team">
-                <span>Leadership</span>
+                <span class="section-title">Leadership</span>
                 <div class="team-list">
                     ${
                         data.team.map(item => `
                             <div class="team-member">
                                 <img src="${item.image}">
                                 <div class="team-member-info">
-                                    <span>${item.name}</span>
-                                    <span>${item.title}</span>
                                     <p>${item.description}</p>
+                                    <span>${item.title}</span>
+                                    <span>${item.name}</span>
                                 </div>
                             </div>
                         `).join(" ")
@@ -105,7 +105,7 @@ function testimonials(){
     return `
         <div class="testimonials-wrap">
             <div class="testimonials">
-                <span>Happy Customers</span>
+                <span class="section-title">Happy Customers</span>
                 <div class="testimonial-list">
                     ${
                         data.testimonials.map(item => `
@@ -123,7 +123,7 @@ function testimonials(){
                     ${
                         data.testimonials.map( () => `
                             <button></button>
-                        `)
+                        `).join(" ")
                     }
                 </div>
             </div>
@@ -143,7 +143,7 @@ function services(){
     return `
         <div class="services-wrap">
             <div class="services">
-                <span>Our Services</span>
+                <span class="section-title">Our Services</span>
                 <div class="service-list">
                     ${
                         data.services.map(item => `
@@ -213,6 +213,9 @@ function home(){
                    ${hero()}
                    ${about()}
                    ${assets()}
+                   ${team()}
+                   ${testimonials()}
+                   ${services()}
                 </div>
                 <script type="module" src="public/js/main.js"></script>
             </body>
