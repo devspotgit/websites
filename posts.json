@@ -12,9 +12,9 @@
     {
         "slug":"yourhr",
         "category":"agency",
-        "image":"",
+        "image":"https://i.ibb.co/0RdWztft/yourhr.png",
         "published":true,
-        "date":"2025-07-11"
+        "date":"2026-01-11"
     },
 
     {
@@ -51,7 +51,7 @@
     
     {
         "slug":"foodroyal",
-        "category":"food",
+        "category":"food-and-drink",
         "image":"https://i.ibb.co/qYf6WXZn/foodroyal.png",
         "published":true,
         "date":"2025-05-20"

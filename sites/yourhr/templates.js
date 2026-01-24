@@ -53,7 +53,28 @@ function hero(){
 function blog(){
 
     return `
-        <div class=""></div>
+        <div class="blog-wrap">
+            <div class="blog">
+                <span class="section-title">Blog</span>
+                <p>${data.blog.title}</p>
+                <div class="blog-list">
+                    ${
+                        data.blog.details.map(item => `
+                            <div class="blog-item">
+                                <div class="blog-item-top">
+                                    <span>${item.title}</span>
+                                    <span>${item.date}</span>
+                                </div>   
+                                <div class="blog-item-body">
+                                    <p>${item.description}</p>
+                                    <a href="">Learn More</a>
+                                </div>
+                            </div>
+                        `).join(" ")
+                    }
+                </div>
+            </div>
+        </div>
     `
 }
 
@@ -134,7 +155,31 @@ function testimonials(){
 function footer(){
 
     return `
-       
+        <div class="footer-wrap">
+            <div class="footer">
+                <div class="footer-section">
+                    <span>About</span>
+                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                </div>
+                <div class="footer-section">
+                    <span>Learn More</span>
+                    <div>
+                        <a href="">How it works</a>
+                        <a href="">Pricing</a>
+                        <a href="">Useful Tools</a>
+                        <a href="">Sitemap</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <span>Contact</span>
+                    <div>
+                        <span>${data.contact.address}</span>
+                        <a href="mailto:${data.contact.email}">${data.contact.email}</a>
+                        <a href="tel:${data.contact.phone}">${data.contact.phone}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     `
 }
 
@@ -216,6 +261,8 @@ function home(){
                    ${team()}
                    ${testimonials()}
                    ${services()}
+                   ${blog()}
+                   ${footer()}
                 </div>
                 <script type="module" src="public/js/main.js"></script>
             </body>
